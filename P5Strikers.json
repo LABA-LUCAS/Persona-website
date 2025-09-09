@@ -3,7 +3,7 @@
         "name": "Arsene",
         "level": 1,
         "arcana": "Fool",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/P5S_Arsene.png",
         "elementResistances": {
             "weak": {
                 "element": ["ice", "bless"]
@@ -51,7 +51,7 @@
         "name": "Jack-o'-Lantern",
         "level": 2,
         "arcana": "Magician",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/P5S_JackOLantern.png",
         "elementResistances": {
             "weak": {
                 "element": ["ice", "wind"]
@@ -91,7 +91,7 @@
         "name": "Pixie",
         "level": 2,
         "arcana": "Lovers",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/P5S_Pixie.png",
         "elementResistances": {
             "weak": {
                 "element": ["gun", "ice", "curse"]
@@ -135,7 +135,7 @@
         "name": "Silky",
         "level": 6,
         "arcana": "Priestess",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/P5S_Silky.png",
         "elementResistances": {
             "weak": {
                 "element": ["electricity", "fire"]
@@ -179,7 +179,7 @@
         "name": "Bicorn",
         "level": 4,
         "arcana": "Hermit",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": "electricity"
@@ -217,7 +217,7 @@
         "name": "Mokoi",
         "level": 8,
         "arcana": "Death",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": "wind"
@@ -255,7 +255,7 @@
         "name": "Andras",
         "level": 10,
         "arcana": "Devil",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": ["fire", "bless"]
@@ -298,7 +298,7 @@
         "name": "Succubus",
         "level": 11,
         "arcana": "Moon",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": ["gun", "wind", "bless"]
@@ -345,7 +345,7 @@
         "name": "Slime",
         "level": 12,
         "arcana": "Chariot",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": ["wind", "fire"]
@@ -389,7 +389,7 @@
         "name": "Hua Po",
         "level": 13,
         "arcana": "Hanged",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": ["ice", "gun"]
@@ -433,7 +433,7 @@
         "name": "Berith",
         "level": 15,
         "arcana": "Hierophant",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": "ice"
@@ -471,7 +471,7 @@
         "name": "High Pixie",
         "level": 16,
         "arcana": "Fool",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": ["gun", "nuke"]
@@ -515,7 +515,7 @@
         "name": "Lamia",
         "level": 18,
         "arcana": "Empress",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": ["ice", "nuke"]
@@ -558,7 +558,7 @@
         "name": "Archangel",
         "level": 19,
         "arcana": "Justice",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": ["electricity", "curse"]
@@ -602,7 +602,7 @@
         "name": "Orthrus",
         "level": 21,
         "arcana": "Hanged",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": "ice"
@@ -649,7 +649,7 @@
         "name": "Pisaca",
         "level": 22,
         "arcana": "Death",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": ["fire", "bless"]
@@ -696,7 +696,7 @@
         "name": "Ame-no-Uzume",
         "level": 23,
         "arcana": "Lovers",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": "psychic"
@@ -740,7 +740,7 @@
         "name": "Jack Frost",
         "level": 24,
         "arcana": "Magician",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": "fire"
@@ -784,7 +784,7 @@
         "name": "Lilim",
         "level": 25,
         "arcana": "Devil",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": ["bless", "wind"]
@@ -831,7 +831,7 @@
         "name": "Setanta",
         "level": 26,
         "arcana": "Emperor",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": "psychic"
@@ -875,7 +875,7 @@
         "name": "Principality",
         "level": 27,
         "arcana": "Justice",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": "curse"
@@ -922,7 +922,7 @@
         "name": "Mothman",
         "level": 28,
         "arcana": "Moon",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": "gun"
@@ -965,7 +965,7 @@
         "name": "Kaiwan",
         "level": 30,
         "arcana": "Star",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": "nuke"
@@ -1008,7 +1008,7 @@
         "name": "Eligor",
         "level": 31,
         "arcana": "Emperor",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": "electricity"
@@ -1052,7 +1052,7 @@
         "name": "Mitra",
         "level": 33,
         "arcana": "Temperance",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": "electricity"
@@ -1096,7 +1096,7 @@
         "name": "Black Ooze",
         "level": 33,
         "arcana": "Moon",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": ["electricity", "psychic", "bless"]
@@ -1143,7 +1143,7 @@
         "name": "Legion",
         "level": 34,
         "arcana": "Fool",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": ["electricity", "nuke", "bless"]
@@ -1190,7 +1190,7 @@
         "name": "Shiisaa",
         "level": 35,
         "arcana": "Chariot",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": ["fire", "psychic", "curse"]
@@ -1233,7 +1233,7 @@
         "name": "Arahabaki",
         "level": 36,
         "arcana": "Hermit",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": ["ice", "psychic", "nuke"]
@@ -1280,7 +1280,7 @@
         "name": "Neko Shogun",
         "level": 37,
         "arcana": "Star",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": "wind"
@@ -1327,7 +1327,7 @@
         "name": "Unicorn",
         "level": 38,
         "arcana": "Hierophant",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": "curse"
@@ -1374,7 +1374,7 @@
         "name": "Koppa Tengu",
         "level": 39,
         "arcana": "Temperance",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": ["gun", "ice", "bless"]
@@ -1414,7 +1414,7 @@
         "name": "Kikuri-Hime",
         "level": 40,
         "arcana": "Priestess",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": "fire"
@@ -1462,7 +1462,7 @@
         "name": "Mithras",
         "level": 41,
         "arcana": "Sun",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": ["electricity", "wind", "psychic"]
@@ -1509,7 +1509,7 @@
         "name": "Okuninushi",
         "level": 42,
         "arcana": "Emperor",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "elementResistances": {
             "weak": {
                 "element": ["nuke", "wind"]
@@ -1552,7 +1552,7 @@
         "name": "Queen Mab",
         "level": 43,
         "arcana": "Magician",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 3839,
             "strength": 23,
@@ -1599,7 +1599,7 @@
         "name": "Naga",
         "level": 44,
         "arcana": "Hermit",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 4031,
             "strength": 24,
@@ -1646,7 +1646,7 @@
         "name": "Valkyrie",
         "level": 45,
         "arcana": "Strength",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 3075,
             "strength": 34,
@@ -1692,7 +1692,7 @@
         "name": "Hecatoncheires",
         "level": 46,
         "arcana": "Hanged",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 3075,
             "strength": 32,
@@ -1739,7 +1739,7 @@
         "name": "Ganesha",
         "level": 47,
         "arcana": "Sun",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 4063,
             "strength": 33,
@@ -1789,7 +1789,7 @@
         "name": "Sarasvati",
         "level": 48,
         "arcana": "Priestess",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 1019,
             "strength": 29,
@@ -1836,7 +1836,7 @@
         "name": "Fortuna",
         "level": 49,
         "arcana": "Fortune",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 3967,
             "strength": 24,
@@ -1879,7 +1879,7 @@
         "name": "Raja Naga",
         "level": 50,
         "arcana": "Temperance",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 4031,
             "strength": 30,
@@ -1926,7 +1926,7 @@
         "name": "Seth",
         "level": 51,
         "arcana": "Tower",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 1014,
             "strength": 32,
@@ -1976,7 +1976,7 @@
         "name": "Kurama Tengu",
         "level": 52,
         "arcana": "Hermit",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 3967,
             "strength": 32,
@@ -2023,7 +2023,7 @@
         "name": "Bugs",
         "level": 53,
         "arcana": "Fool",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 4079,
             "strength": 39,
@@ -2070,7 +2070,7 @@
         "name": "Norn",
         "level": 53,
         "arcana": "Fortune",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 3967,
             "strength": 30,
@@ -2120,7 +2120,7 @@
         "name": "Lilith",
         "level": 54,
         "arcana": "Moon",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 3583,
             "strength": 30,
@@ -2160,7 +2160,7 @@
         "name": "Nebiros",
         "level": 55,
         "arcana": "Devil",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 1014,
             "strength": 35,
@@ -2203,7 +2203,7 @@
         "name": "Trumpeter",
         "level": 56,
         "arcana": "Judgement",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 4063,
             "strength": 32,
@@ -2253,7 +2253,7 @@
         "name": "Cerberus",
         "level": 57,
         "arcana": "Chariot",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 3839,
             "strength": 41,
@@ -2300,7 +2300,7 @@
         "name": "Mot",
         "level": 57,
         "arcana": "Death",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 4063,
             "strength": 35,
@@ -2350,7 +2350,7 @@
         "name": "Yatagarasu",
         "level": 58,
         "arcana": "Sun",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 4031,
             "strength": 36,
@@ -2397,7 +2397,7 @@
         "name": "Cu Chulainn",
         "level": 59,
         "arcana": "Star",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 3075,
             "strength": 40,
@@ -2447,7 +2447,7 @@
         "name": "Forneus",
         "level": 60,
         "arcana": "Hierophant",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 4079,
             "strength": 39,
@@ -2490,7 +2490,7 @@
         "name": "Thor",
         "level": 61,
         "arcana": "Chariot",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 4031,
             "strength": 42,
@@ -2537,7 +2537,7 @@
         "name": "Dominion",
         "level": 62,
         "arcana": "Justice",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 1017,
             "strength": 38,
@@ -2587,7 +2587,7 @@
         "name": "King Frost",
         "level": 63,
         "arcana": "Emperor",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 3583,
             "strength": 41,
@@ -2633,7 +2633,7 @@
         "name": "Kali",
         "level": 64,
         "arcana": "Empress",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 4079,
             "strength": 42,
@@ -2680,7 +2680,7 @@
         "name": "Abaddon",
         "level": 66,
         "arcana": "Judgement",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 1014,
             "strength": 45,
@@ -2730,7 +2730,7 @@
         "name": "Black Frost",
         "level": 67,
         "arcana": "Fool",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 3583,
             "strength": 44,
@@ -2780,7 +2780,7 @@
         "name": "Siegfried",
         "level": 69,
         "arcana": "Strength",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 3075,
             "strength": 51,
@@ -2827,7 +2827,7 @@
         "name": "Mara",
         "level": 72,
         "arcana": "Tower",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 3839,
             "strength": 50,
@@ -2877,7 +2877,7 @@
         "name": "Alice",
         "level": 75,
         "arcana": "Death",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 1014,
             "strength": 41,
@@ -2924,7 +2924,7 @@
         "name": "Yoshitsune",
         "level": 78,
         "arcana": "Tower",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 3075,
             "strength": 57,
@@ -2968,7 +2968,7 @@
         "name": "Metatron",
         "level": 80,
         "arcana": "Justice",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 1017,
             "strength": 49,
@@ -3015,7 +3015,7 @@
         "name": "Lucifer",
         "level": 90,
         "arcana": "Star",
-        "image": "MEDIA/persona's/",
+        "image": "MEDIA/persona's/Persona5Strikers/",
         "statistics": {
             "price": 4095,
             "strength": 59,
