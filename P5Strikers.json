@@ -1,0 +1,3063 @@
+[{
+        "id": 1,
+        "name": "Arsene",
+        "level": 1,
+        "arcana": "Fool",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": ["ice", "bless"]
+            },
+            "resist": {
+                "element": ["curse"]
+            }
+        },
+        "statistics": {
+            "price": 2400,
+            "strength": 4,
+            "magic": 4,
+            "endurance": 4,
+            "agility": 5,
+            "luck": 3
+        },
+        "skills": {
+            "standard": [{
+                    "name": "Eiha"
+                },
+                {
+                    "name": "Cleave"
+                }
+            ],
+            "learned": [{
+                "name": ["Tarunda", "Dream Needle", "Maeiga", "One-shot Kill", "Maeigaon", "Survival Trick", "Riot Gun"]
+            }],
+            "special": [{
+                "name": "Rebel Soul",
+                "level": 10
+            }],
+            "combo_skills": [{
+                    "name": "Eiha",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Cleave",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "name": "Jack-o'-Lantern",
+        "level": 2,
+        "arcana": "Magician",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": ["ice", "wind"]
+            },
+            "absorb": {
+                "element": "fire"
+            }
+        },
+        "statistics": {
+            "price": 3839,
+            "strength": 2,
+            "magic": 3,
+            "endurance": 3,
+            "agility": 3,
+            "luck": 2
+        },
+        "skills": {
+            "standard": [{
+                "name": "Agi"
+            }],
+            "learned": [{
+                "name": ["Burn Boost", "Soul Thief"]
+            }],
+            "combo_skills": [{
+                    "name": "Agi",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Rakunda",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "name": "Pixie",
+        "level": 2,
+        "arcana": "Lovers",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": ["gun", "ice", "curse"]
+            },
+            "resist": {
+                "element": ["electricity", "bless"]
+            }
+        },
+        "statistics": {
+            "price": 1019,
+            "strength": 1,
+            "magic": 3,
+            "endurance": 3,
+            "agility": 4,
+            "luck": 2
+        },
+        "skills": {
+            "standard": [{
+                "name": "Zio"
+            }],
+            "learned": [{
+                "name": ["Null Sleep", "Mazio"]
+            }],
+            "combo_skills": [{
+                    "name": "Dia",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Zio",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Mazio",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "name": "Silky",
+        "level": 6,
+        "arcana": "Priestess",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": ["electricity", "fire"]
+            },
+            "resist": {
+                "element": "ice"
+            }
+        },
+        "statistics": {
+            "price": 3583,
+            "strength": 4,
+            "magic": 7,
+            "endurance": 4,
+            "agility": 5,
+            "luck": 5
+        },
+        "skills": {
+            "standard": [{
+                "name": "Bufu"
+            }],
+            "learned": [{
+                "name": ["Sleep Boost", "Mabufu", "Dekaja"]
+            }],
+            "combo_skills": [{
+                    "name": "Dormina",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Bufu",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Mabufu",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "name": "Bicorn",
+        "level": 4,
+        "arcana": "Hermit",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": "electricity"
+            },
+            "resist": {
+                "element": "bless"
+            }
+        },
+        "statistics": {
+            "price": 3967,
+            "strength": 5,
+            "magic": 3,
+            "endurance": 3,
+            "agility": 5,
+            "luck": 3
+        },
+        "skills": {
+            "standard": [{
+                "name": "Lunge"
+            }],
+            "learned": [{
+                "name": ["Rampage", "Null Dizzy"]
+            }],
+            "combo_skills": [{
+                "name": "Garu",
+                "input": "□□□△"
+            }, {
+                "name": "Lunge",
+                "input": "□□□□□△△"
+            }]
+        }
+    },
+    {
+        "id": 6,
+        "name": "Mokoi",
+        "level": 8,
+        "arcana": "Death",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": "wind"
+            },
+            "resist": {
+                "element": "electricity"
+            }
+        },
+        "statistics": {
+            "price": 4095,
+            "strength": 8,
+            "magic": 5,
+            "endurance": 5,
+            "agility": 9,
+            "luck": 4
+        },
+        "skills": {
+            "standard": [{
+                "name": "Sledgehammer"
+            }],
+            "learned": [{
+                "name": ["Dekunda", "Null Rage"]
+            }],
+            "combo_skills": [{
+                "name": "Tarukaja",
+                "input": "□□□△"
+            }, {
+                "name": "Sledgehammer",
+                "input": "□□□□□△△"
+            }]
+        }
+    },
+    {
+        "id": 7,
+        "name": "Andras",
+        "level": 10,
+        "arcana": "Devil",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": ["fire", "bless"]
+            },
+            "resist": {
+                "element": ["ice", "psychic"]
+            },
+            "null": {
+                "element": "curse"
+            }
+        },
+        "statistics": {
+            "price": 3583,
+            "strength": 5,
+            "magic": 9,
+            "endurance": 7,
+            "agility": 10,
+            "luck": 6
+        },
+        "skills": {
+            "standard": [{
+                "name": "Zio"
+            }],
+            "learned": [{
+                "name": ["Sukunda", "Dodge Phys"]
+            }],
+            "combo_skills": [{
+                    "name": "Mabufu",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Terror Claw",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "name": "Succubus",
+        "level": 11,
+        "arcana": "Moon",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": ["gun", "wind", "bless"]
+            },
+            "resist": {
+                "element": ["fire", "psychic"]
+            },
+            "null": {
+                "element": "curse"
+            }
+        },
+        "statistics": {
+            "price": 4079,
+            "strength": 5,
+            "magic": 10,
+            "endurance": 7,
+            "agility": 13,
+            "luck": 5
+        },
+        "skills": {
+            "standard": [{
+                "name": "Eiha"
+            }],
+            "learned": [{
+                "name": ["Null Brainwash", "Snap"]
+            }],
+            "combo_skills": [{
+                    "name": "Marin Karin",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Psi",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Snap",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "name": "Slime",
+        "level": 12,
+        "arcana": "Chariot",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": ["wind", "fire"]
+            },
+            "resist": {
+                "element": ["physical", "gun"]
+            }
+        },
+        "statistics": {
+            "price": 1014,
+            "strength": 10,
+            "magic": 8,
+            "endurance": 13,
+            "agility": 7,
+            "luck": 5
+        },
+        "skills": {
+            "standard": [{
+                "name": "Lunge"
+            }],
+            "learned": [{
+                "name": ["Maeiha", "Rage Boost"]
+            }],
+            "combo_skills": [{
+                    "name": "Evil Touch",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Eiha",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Hysterical Slap",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 10,
+        "name": "Hua Po",
+        "level": 13,
+        "arcana": "Hanged",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": ["ice", "gun"]
+            },
+            "null": {
+                "element": "fire"
+            }
+        },
+        "statistics": {
+            "price": 3839,
+            "strength": 5,
+            "magic": 14,
+            "endurance": 5,
+            "agility": 11,
+            "luck": 11
+        },
+        "skills": {
+            "standard": [{
+                "name": "Maragi"
+            }],
+            "learned": [{
+                "name": ["Amrita Drop", "Null Forget", "Soul Thief"]
+            }],
+            "combo_skills": [{
+                    "name": "Tarunda",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Maragi",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Amrita Drop",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 11,
+        "name": "Berith",
+        "level": 15,
+        "arcana": "Hierophant",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": "ice"
+            },
+            "resist": {
+                "element": "fire"
+            },
+            "null": {
+                "element": "gun"
+            }
+        },
+        "statistics": {
+            "price": 4095,
+            "strength": 13,
+            "magic": 9,
+            "endurance": 11,
+            "agility": 13,
+            "luck": 6
+        },
+        "skills": {
+            "standard": [{
+                "name": "Double Fangs"
+            }],
+            "learned": [{
+                "name": ["Null Fear", "Dodge Fire"]
+            }],
+            "combo_skills": [{
+                "name": "Double Fangs",
+                "input": "□□△△"
+            }]
+        }
+    },
+    {
+        "id": 12,
+        "name": "High Pixie",
+        "level": 16,
+        "arcana": "Fool",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": ["gun", "nuke"]
+            },
+            "resist": {
+                "element": ["electricity", "wind"]
+            }
+        },
+        "statistics": {
+            "price": 3967,
+            "strength": 8,
+            "magic": 14,
+            "endurance": 10,
+            "agility": 13,
+            "luck": 10
+        },
+        "skills": {
+            "standard": [{
+                "name": "Zio"
+            }],
+            "learned": [{
+                "name": ["Media", "Garula", "Recarm"]
+            }],
+            "combo_skills": [{
+                    "name": "Makajam",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Magaru",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Garula",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 13,
+        "name": "Lamia",
+        "level": 18,
+        "arcana": "Empress",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": ["ice", "nuke"]
+            },
+            "resist": {
+                "element": ["fire", "electricity"]
+            },
+            "null": {
+                "element": "curse"
+            }
+        },
+        "statistics": {
+            "price": 3839,
+            "strength": 13,
+            "magic": 11,
+            "endurance": 13,
+            "agility": 14,
+            "luck": 10
+        },
+        "skills": {
+            "standard": [{
+                "name": "Agilao"
+            }],
+            "learned": [{
+                "name": ["Tetraja", "Brainwash Boost"]
+            }],
+            "combo_skills": [{
+                    "name": "Agilao",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Brain Shake",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 14,
+        "name": "Archangel",
+        "level": 19,
+        "arcana": "Justice",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": ["electricity", "curse"]
+            },
+            "absorb": {
+                "element": "bless"
+            }
+        },
+        "statistics": {
+            "price": 1017,
+            "strength": 16,
+            "magic": 11,
+            "endurance": 16,
+            "agility": 14,
+            "luck": 7
+        },
+        "skills": {
+            "standard": [{
+                "name": "Vajra Blast"
+            }],
+            "learned": [{
+                "name": ["Dazzler", "Giant Slice", "Hama"]
+            }],
+            "combo_skills": [{
+                    "name": "Giant Slice",
+                    "input": "□□△"
+                },
+                {
+                    "name": "Makouha",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Vajra Blast",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 15,
+        "name": "Orthrus",
+        "level": 21,
+        "arcana": "Hanged",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": "ice"
+            },
+            "resist": {
+                "element": "nuke"
+            },
+            "absorb": {
+                "element": "fire"
+            }
+        },
+        "statistics": {
+            "price": 4063,
+            "strength": 16,
+            "magic": 14,
+            "endurance": 14,
+            "agility": 19,
+            "luck": 7
+        },
+        "skills": {
+            "standard": [{
+                "name": "Agilao"
+            }],
+            "learned": [{
+                "name": ["Dodge Ice", "Freila"]
+            }],
+            "combo_skills": [{
+                    "name": "Double Fangs",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Frei",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Terror Claw",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 16,
+        "name": "Pisaca",
+        "level": 22,
+        "arcana": "Death",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": ["fire", "bless"]
+            },
+            "resist": {
+                "element": "electricity"
+            },
+            "absorb": {
+                "element": "curse"
+            }
+        },
+        "statistics": {
+            "price": 1014,
+            "strength": 15,
+            "magic": 16,
+            "endurance": 16,
+            "agility": 14,
+            "luck": 12
+        },
+        "skills": {
+            "standard": [{
+                "name": "Maeiga"
+            }],
+            "learned": [{
+                "name": ["Dream Needle", "Mamudo"]
+            }],
+            "combo_skills": [{
+                    "name": "Mudo",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Life Drain",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Mamudo",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 17,
+        "name": "Ame-no-Uzume",
+        "level": 23,
+        "arcana": "Lovers",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": "psychic"
+            },
+            "absorb": {
+                "element": "fire"
+            }
+        },
+        "statistics": {
+            "price": 3583,
+            "strength": 13,
+            "magic": 16,
+            "endurance": 16,
+            "agility": 16,
+            "luck": 15
+        },
+        "skills": {
+            "standard": [{
+                "name": "Bufula"
+            }],
+            "learned": [{
+                "name": ["Diarama", "Media", "Divine Grace"]
+            }],
+            "combo_skills": [{
+                    "name": "Bufula",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Masukukaja",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Media",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 18,
+        "name": "Jack Frost",
+        "level": 24,
+        "arcana": "Magician",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": "fire"
+            },
+            "absorb": {
+                "element": "ice"
+            }
+        },
+        "statistics": {
+            "price": 3583,
+            "strength": 17,
+            "magic": 20,
+            "endurance": 11,
+            "agility": 20,
+            "luck": 11
+        },
+        "skills": {
+            "standard": [{
+                "name": "Bufula"
+            }],
+            "learned": [{
+                "name": ["Freeze Boost", "Ice Boost", "Mabufula"]
+            }],
+            "combo_skills": [{
+                    "name": "Bufula",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Marakunda",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Mabufula",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 19,
+        "name": "Lilim",
+        "level": 25,
+        "arcana": "Devil",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": ["bless", "wind"]
+            },
+            "resist": {
+                "element": "ice"
+            },
+            "null": {
+                "element": "curse"
+            }
+        },
+        "statistics": {
+            "price": 4095,
+            "strength": 15,
+            "magic": 18,
+            "endurance": 14,
+            "agility": 19,
+            "luck": 16
+        },
+        "skills": {
+            "standard": [{
+                "name": "Maeiga"
+            }],
+            "learned": [{
+                "name": ["Null Forget", "Soul Thief", "Dekaja"]
+            }],
+            "combo_skills": [{
+                    "name": "Evil Smile",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Mabufula",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Dekaja",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 20,
+        "name": "Setanta",
+        "level": 26,
+        "arcana": "Emperor",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": "psychic"
+            },
+            "resist": {
+                "element": ["gun", "nuke"]
+            }
+        },
+        "statistics": {
+            "price": 4063,
+            "strength": 18,
+            "magic": 16,
+            "endurance": 18,
+            "agility": 17,
+            "luck": 16
+        },
+        "skills": {
+            "standard": [{
+                "name": "Giant Slice"
+            }],
+            "learned": [{
+                "name": ["Sleep Boost", "Regenerate 1"]
+            }],
+            "combo_skills": [{
+                    "name": "Giant Slice",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Dormin Rush",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Mafrei",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 21,
+        "name": "Principality",
+        "level": 27,
+        "arcana": "Justice",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": "curse"
+            },
+            "resist": {
+                "element": "fire"
+            },
+            "null": {
+                "element": "bless"
+            }
+        },
+        "statistics": {
+            "price": 1019,
+            "strength": 15,
+            "magic": 18,
+            "endurance": 17,
+            "agility": 20,
+            "luck": 18
+        },
+        "skills": {
+            "standard": [{
+                "name": "Makouga"
+            }],
+            "learned": [{
+                "name": ["Recarm", "Forget Boost"]
+            }],
+            "combo_skills": [{
+                    "name": "Makajam",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Media",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Makouga",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 22,
+        "name": "Mothman",
+        "level": 28,
+        "arcana": "Moon",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": "gun"
+            },
+            "resist": {
+                "element": "psychic"
+            },
+            "absorb": {
+                "element": "electricity"
+            }
+        },
+        "statistics": {
+            "price": 4031,
+            "strength": 18,
+            "magic": 20,
+            "endurance": 15,
+            "agility": 20,
+            "luck": 18
+        },
+        "skills": {
+            "standard": [{
+                "name": "Zionga"
+            }],
+            "learned": [{
+                "name": ["Dizzy Boost", "Megido"]
+            }],
+            "combo_skills": [{
+                    "name": "Mazionga",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Flash Bomb",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 23,
+        "name": "Kaiwan",
+        "level": 30,
+        "arcana": "Star",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": "nuke"
+            },
+            "absorb": {
+                "element": "psychic"
+            },
+            "null": {
+                "element": "gun"
+            }
+        },
+        "statistics": {
+            "price": 4079,
+            "strength": 19,
+            "magic": 21,
+            "endurance": 20,
+            "agility": 19,
+            "luck": 18
+        },
+        "skills": {
+            "standard": [{
+                "name": "Mapsio"
+            }],
+            "learned": [{
+                "name": ["Dodge Nuke", "Technical Adept"]
+            }],
+            "combo_skills": [{
+                    "name": "Mapsio",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Concentrate",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 24,
+        "name": "Eligor",
+        "level": 31,
+        "arcana": "Emperor",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": "electricity"
+            },
+            "resist": {
+                "element": ["fire", "curse"]
+            }
+        },
+        "statistics": {
+            "price": 3839,
+            "strength": 23,
+            "magic": 17,
+            "endurance": 28,
+            "agility": 16,
+            "luck": 16
+        },
+        "skills": {
+            "standard": [{
+                "name": "Memory Blow"
+            }],
+            "learned": [{
+                "name": ["Rakunda", "Swift Strike"]
+            }],
+            "combo_skills": [{
+                    "name": "Lunge",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Maragion",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Memory Blow",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 25,
+        "name": "Mitra",
+        "level": 33,
+        "arcana": "Temperance",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": "electricity"
+            },
+            "null": {
+                "element": ["ice", "bless"]
+            }
+        },
+        "statistics": {
+            "price": 1017,
+            "strength": 19,
+            "magic": 26,
+            "endurance": 19,
+            "agility": 24,
+            "luck": 18
+        },
+        "skills": {
+            "standard": [{
+                "name": "Kouga"
+            }],
+            "learned": [{
+                "name": ["Makouga", "Maeiga"]
+            }],
+            "combo_skills": [{
+                    "name": "Vajra Blast",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Kouga",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Eiga",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 26,
+        "name": "Black Ooze",
+        "level": 33,
+        "arcana": "Moon",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": ["electricity", "psychic", "bless"]
+            },
+            "resist": {
+                "element": ["physical", "gun", "ice"]
+            },
+            "null": {
+                "element": "curse"
+            }
+        },
+        "statistics": {
+            "price": 1014,
+            "strength": 21,
+            "magic": 20,
+            "endurance": 22,
+            "agility": 18,
+            "luck": 25
+        },
+        "skills": {
+            "standard": [{
+                "name": "Headbutt"
+            }],
+            "learned": [{
+                "name": ["Eiga", "Ailment Boost"]
+            }],
+            "combo_skills": [{
+                    "name": "Headbutt",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Matarunda",
+                    "input": "□□□□□△△"
+                },
+                {
+                    "name": "Eiga",
+                    "input": "□□□△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 27,
+        "name": "Legion",
+        "level": 34,
+        "arcana": "Fool",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": ["electricity", "nuke", "bless"]
+            },
+            "resist": {
+                "element": ["physical", "fire", "psychic"]
+            },
+            "null": {
+                "element": "curse"
+            }
+        },
+        "statistics": {
+            "price": 4079,
+            "strength": 22,
+            "magic": 21,
+            "endurance": 26,
+            "agility": 20,
+            "luck": 20
+        },
+        "skills": {
+            "standard": [{
+                "name": "Brain Shake"
+            }],
+            "learned": [{
+                "name": ["Rampage", "Brainwash Boost"]
+            }],
+            "combo_skills": [{
+                    "name": "Rampage",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Psio",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Brain Shake",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 28,
+        "name": "Shiisaa",
+        "level": 35,
+        "arcana": "Chariot",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": ["fire", "psychic", "curse"]
+            },
+            "resist": {
+                "element": "physical"
+            },
+            "null": {
+                "element": "bless"
+            }
+        },
+        "statistics": {
+            "price": 4031,
+            "strength": 30,
+            "magic": 16,
+            "endurance": 23,
+            "agility": 30,
+            "luck": 13
+        },
+        "skills": {
+            "standard": [{
+                "name": "Assault Dive"
+            }],
+            "learned": [{
+                "name": ["Dodge Curse", "Technical High"]
+            }],
+            "combo_skills": [{
+                    "name": "Zionga",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Assault Dive",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 29,
+        "name": "Arahabaki",
+        "level": 36,
+        "arcana": "Hermit",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": ["ice", "psychic", "nuke"]
+            },
+            "resist": {
+                "element": ["physical", "gun"]
+            },
+            "null": {
+                "element": ["bless", "curse"]
+            }
+        },
+        "statistics": {
+            "price": 1014,
+            "strength": 22,
+            "magic": 24,
+            "endurance": 22,
+            "agility": 25,
+            "luck": 22
+        },
+        "skills": {
+            "standard": [{
+                "name": "Assault Dive"
+            }],
+            "learned": [{
+                "name": ["Curse Boost", "Defense Master"]
+            }],
+            "combo_skills": [{
+                    "name": "Assault Dive",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Masukunda",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Maeiga",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 30,
+        "name": "Neko Shogun",
+        "level": 37,
+        "arcana": "Star",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": "wind"
+            },
+            "resist": {
+                "element": ["electricity", "curse"]
+            },
+            "null": {
+                "element": "bless"
+            }
+        },
+        "statistics": {
+            "price": 3839,
+            "strength": 23,
+            "magic": 24,
+            "endurance": 23,
+            "agility": 26,
+            "luck": 22
+        },
+        "skills": {
+            "standard": [{
+                "name": "Maragion"
+            }],
+            "learned": [{
+                "name": ["Dodge Wind", "Heat Wave", "Speed Master"]
+            }],
+            "combo_skills": [{
+                    "name": "Sukukaja",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Maragion",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Heat Wave",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 31,
+        "name": "Unicorn",
+        "level": 38,
+        "arcana": "Hierophant",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": "curse"
+            },
+            "resist": {
+                "element": "psychic"
+            },
+            "null": {
+                "element": ["ice", "bless"]
+            }
+        },
+        "statistics": {
+            "price": 4063,
+            "strength": 20,
+            "magic": 26,
+            "endurance": 24,
+            "agility": 27,
+            "luck": 24
+        },
+        "skills": {
+            "standard": [{
+                "name": "Mafreila"
+            }],
+            "learned": [{
+                "name": ["Recarm", "Regenerate 2"]
+            }],
+            "combo_skills": [{
+                    "name": "Assault Dive",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Mafreila",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Mediarama",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 32,
+        "name": "Koppa Tengu",
+        "level": 39,
+        "arcana": "Temperance",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": ["gun", "ice", "bless"]
+            },
+            "resist": {
+                "element": "wind"
+            }
+        },
+        "statistics": {
+            "price": 3967,
+            "strength": 23,
+            "magic": 25,
+            "endurance": 25,
+            "agility": 32,
+            "luck": 19
+        },
+        "skills": {
+            "standard": [{
+                "name": "Magarula"
+            }],
+            "learned": [{
+                "name": ["Taunt", "Gun Boost"]
+            }],
+            "combo_skills": [{
+                    "name": "Magarula",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "One-shot-Kill",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 33,
+        "name": "Kikuri-Hime",
+        "level": 40,
+        "arcana": "Priestess",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": "fire"
+            },
+            "resist": {
+                "element": "bless"
+            },
+            "null": {
+                "element": "wind"
+            }
+        },
+        "statistics": {
+            "price": 4095,
+            "strength": 22,
+            "magic": 31,
+            "endurance": 24,
+            "agility": 28,
+            "luck": 22
+        },
+        "skills": {
+            "standard": [{
+                "name": "Diarama"
+            }],
+            "learned": [{
+                "name": "Mediarama",
+                "level": 42
+            }],
+            "combo_skills": [{
+                    "name": "Diarama",
+                    "input": "□□□□□△△"
+                },
+                {
+                    "name": "Lullaby",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Marakukaja",
+                    "input": "□□□△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 34,
+        "name": "Mithras",
+        "level": 41,
+        "arcana": "Sun",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": ["electricity", "wind", "psychic"]
+            },
+            "resist": {
+                "element": ["physical", "bless", "curse"]
+            },
+            "absorb": {
+                "element": ["fire", "nuke"]
+            }
+        },
+        "statistics": {
+            "price": 4063,
+            "strength": 29,
+            "magic": 27,
+            "endurance": 29,
+            "agility": 26,
+            "luck": 19
+        },
+        "skills": {
+            "standard": [{
+                "name": "Mafreila"
+            }],
+            "learned": [{
+                "name": ["Nuke Boost", "Freidyne"]
+            }],
+            "combo_skills": [{
+                    "name": "Vicious Strike",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Mafreila",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Tempest Slash",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 35,
+        "name": "Okuninushi",
+        "level": 42,
+        "arcana": "Emperor",
+        "image": "MEDIA/persona's/",
+        "elementResistances": {
+            "weak": {
+                "element": ["nuke", "wind"]
+            },
+            "absorb": {
+                "element": "psychic"
+            },
+            "null": {
+                "element": "electricity"
+            }
+        },
+        "statistics": {
+            "price": 4079,
+            "strength": 28,
+            "magic": 27,
+            "endurance": 27,
+            "agility": 26,
+            "luck": 25
+        },
+        "skills": {
+            "standard": [{
+                "name": "Psio"
+            }],
+            "learned": [{
+                "name": ["Psio Boost", "Psiodyne"]
+            }],
+            "combo_skills": [{
+                    "name": "Psio",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Tempest Slash",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 36,
+        "name": "Queen Mab",
+        "level": 43,
+        "arcana": "Magician",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 3839,
+            "strength": 23,
+            "magic": 35,
+            "endurance": 26,
+            "agility": 30,
+            "luck": 22
+        },
+        "elementResistances": {
+            "weak": {
+                "element": "wind"
+            },
+            "resist": {
+                "element": "electricity"
+            },
+            "null": {
+                "element": "fire"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Maragion"
+            }],
+            "learned": [{
+                "name": ["Agidyne", "Bufudyne"]
+            }],
+            "combo_skills": [{
+                    "name": "Maragion",
+                    "input": "□□□□□△△"
+                },
+                {
+                    "name": "Makajamaon",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Mabufula",
+                    "input": "□□□△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 37,
+        "name": "Naga",
+        "level": 44,
+        "arcana": "Hermit",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 4031,
+            "strength": 24,
+            "magic": 33,
+            "endurance": 24,
+            "agility": 34,
+            "luck": 24
+        },
+        "elementResistances": {
+            "weak": {
+                "element": "wind"
+            },
+            "resist": {
+                "element": "gun"
+            },
+            "null": {
+                "element": "electricity"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Bufudyne"
+            }],
+            "learned": [{
+                "name": ["Shock Boost", "Defense Master"]
+            }],
+            "combo_skills": [{
+                    "name": "Rakukaja",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Mazionga",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Memory Blow",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 38,
+        "name": "Valkyrie",
+        "level": 45,
+        "arcana": "Strength",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 3075,
+            "strength": 34,
+            "magic": 24,
+            "endurance": 29,
+            "agility": 30,
+            "luck": 25
+        },
+        "elementResistances": {
+            "weak": {
+                "element": "fire"
+            },
+            "resist": {
+                "element": "gun"
+            },
+            "null": {
+                "element": "ice"
+            },
+            "absorb": {
+                "element": "bless"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Bloodbath"
+            }],
+            "learned": [{
+                "name": ["Attack Master", "Oni Kagura", "Deathbound"]
+            }],
+            "combo_skills": [{
+                    "name": "Bloodbath",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Brain Buster",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 39,
+        "name": "Hecatoncheires",
+        "level": 46,
+        "arcana": "Hanged",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 3075,
+            "strength": 32,
+            "magic": 28,
+            "endurance": 34,
+            "agility": 28,
+            "luck": 23
+        },
+        "elementResistances": {
+            "weak": {
+                "element": "bless"
+            },
+            "resist": {
+                "element": "gun"
+            },
+            "absorb": {
+                "element": "curse"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Lunge"
+            }],
+            "learned": [{
+                "name": ["Endure", "Triple Down", "Attack Master"]
+            }],
+            "combo_skills": [{
+                    "name": "Lunge",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Swift Strike",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Triple Down",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 40,
+        "name": "Ganesha",
+        "level": 47,
+        "arcana": "Sun",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 4063,
+            "strength": 33,
+            "magic": 28,
+            "endurance": 33,
+            "agility": 30,
+            "luck": 24
+        },
+        "elementResistances": {
+            "weak": {
+                "element": ["electricity", "psychic", "curse"]
+            },
+            "resist": {
+                "element": "physical"
+            },
+            "null": {
+                "element": "wind"
+            },
+            "absorb": {
+                "element": "nuke"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Freidyne"
+            }],
+            "learned": [{
+                "name": ["Regenerate 2", "Endure", "Atomic Flare"]
+            }],
+            "combo_skills": [{
+                    "name": "Vajra Blast",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Freidyne",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Charge",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 41,
+        "name": "Sarasvati",
+        "level": 48,
+        "arcana": "Priestess",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 1019,
+            "strength": 29,
+            "magic": 33,
+            "endurance": 31,
+            "agility": 32,
+            "luck": 26
+        },
+        "elementResistances": {
+            "weak": {
+                "element": "nuke"
+            },
+            "resist": {
+                "element": "electricity"
+            },
+            "null": {
+                "element": "ice"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Mediarama"
+            }],
+            "learned": [{
+                "name": ["Amrita Shower", "Dekunda", "Diarahan"]
+            }],
+            "combo_skills": [{
+                    "name": "Dekaja",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Mediarama",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Matarunda",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 42,
+        "name": "Fortuna",
+        "level": 49,
+        "arcana": "Fortune",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 3967,
+            "strength": 24,
+            "magic": 34,
+            "endurance": 31,
+            "agility": 37,
+            "luck": 28
+        },
+        "elementResistances": {
+            "weak": {
+                "element": "electricity"
+            },
+            "null": {
+                "element": "fire"
+            },
+            "absorb": {
+                "element": "wind"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Garudyne"
+            }],
+            "learned": [{
+                "name": ["Amrita Drop", "Evade Electricity", "Vacuum Wave"]
+            }],
+            "combo_skills": [{
+                    "name": "Garudyne",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Concentrate",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 43,
+        "name": "Raja Naga",
+        "level": 50,
+        "arcana": "Temperance",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 4031,
+            "strength": 30,
+            "magic": 32,
+            "endurance": 34,
+            "agility": 32,
+            "luck": 29
+        },
+        "elementResistances": {
+            "weak": {
+                "element": "curse"
+            },
+            "resist": {
+                "element": "gun"
+            },
+            "absorb": {
+                "element": "electricity"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Ziodyne"
+            }],
+            "learned": [{
+                "name": ["Maziodyne", "Evade Wind", "Thunder Reign"]
+            }],
+            "combo_skills": [{
+                    "name": "Masukukaja",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Ziodyne",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Maziodyne",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 44,
+        "name": "Seth",
+        "level": 51,
+        "arcana": "Tower",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 1014,
+            "strength": 32,
+            "magic": 35,
+            "endurance": 30,
+            "agility": 35,
+            "luck": 28
+        },
+        "elementResistances": {
+            "weak": {
+                "element": "bless"
+            },
+            "resist": {
+                "element": "curse"
+            },
+            "null": {
+                "element": "fire"
+            },
+            "absorb": {
+                "element": "wind"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Eigaon"
+            }],
+            "learned": [{
+                "name": ["Gun Amp", "Knockdown Style", "Fortify Spirit", "Riot Gun"]
+            }],
+            "combo_skills": [{
+                    "name": "Masukukaja",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "One-shot-Kill",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Eigaon",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 45,
+        "name": "Kurama Tengu",
+        "level": 52,
+        "arcana": "Hermit",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 3967,
+            "strength": 32,
+            "magic": 35,
+            "endurance": 32,
+            "agility": 39,
+            "luck": 25
+        },
+        "elementResistances": {
+            "weak": {
+                "element": ["ice", "gun"]
+            },
+            "resist": {
+                "element": ["curse", "bless"]
+            },
+            "null": {
+                "element": "wind"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Garudyne"
+            }],
+            "learned": [{
+                "name": ["Wind Boost", "Marakunda"]
+            }],
+            "combo_skills": [{
+                    "name": "Heat Wave",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Garudyne",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Nocturnal Flash",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 46,
+        "name": "Bugs",
+        "level": 53,
+        "arcana": "Fool",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 4079,
+            "strength": 39,
+            "magic": 36,
+            "endurance": 32,
+            "agility": 35,
+            "luck": 24
+        },
+        "elementResistances": {
+            "weak": {
+                "element": ["bless", "nuke"]
+            },
+            "resist": {
+                "element": ["wind", "psychic"]
+            },
+            "null": {
+                "element": "curse"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Psiodyne"
+            }],
+            "learned": [{
+                "name": ["Fear Boost", "Dodge Phys"]
+            }],
+            "combo_skills": [{
+                    "name": "Masukunda",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Psiodyne",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Bloodbath",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 47,
+        "name": "Norn",
+        "level": 53,
+        "arcana": "Fortune",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 3967,
+            "strength": 30,
+            "magic": 39,
+            "endurance": 34,
+            "agility": 35,
+            "luck": 28
+        },
+        "elementResistances": {
+            "weak": {
+                "element": ["nuke", "curse"]
+            },
+            "resist": {
+                "element": "bless"
+            },
+            "null": {
+                "element": "electricity"
+            },
+            "absorb": {
+                "element": "wind"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Garudyne"
+            }],
+            "learned": [{
+                "name": ["Diarahan", "Samarecarm", "Wind Amp", "Panta Rhei"]
+            }],
+            "combo_skills": [{
+                    "name": "Vicious Strike",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Garudyne",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Magaridyne",
+                    "input": "□□□△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 48,
+        "name": "Lilith",
+        "level": 54,
+        "arcana": "Moon",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 3583,
+            "strength": 30,
+            "magic": 38,
+            "endurance": 34,
+            "agility": 35,
+            "luck": 32
+        },
+        "elementResistances": {
+            "weak": {
+                "element": "fire"
+            },
+            "null": {
+                "element": ["ice", "nuke", "curse"]
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Magaridyne"
+            }],
+            "learned": [{
+                "name": ["Brain Jack", "Soul Thief"]
+            }],
+            "combo_skills": [{
+                    "name": "Mabufudyne",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Magaridyne",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 49,
+        "name": "Nebiros",
+        "level": 55,
+        "arcana": "Devil",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 1014,
+            "strength": 35,
+            "magic": 35,
+            "endurance": 36,
+            "agility": 33,
+            "luck": 33
+        },
+        "elementResistances": {
+            "weak": {
+                "element": "bless"
+            },
+            "resist": {
+                "element": "curse"
+            },
+            "null": {
+                "element": "psychic"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Eigaon"
+            }],
+            "learned": [{
+                "name": ["Curse Amp", "Debilitate"]
+            }],
+            "combo_skills": [{
+                    "name": "Eigaon",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Mudoon",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 50,
+        "name": "Trumpeter",
+        "level": 56,
+        "arcana": "Judgement",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 4063,
+            "strength": 32,
+            "magic": 39,
+            "endurance": 38,
+            "agility": 36,
+            "luck": 30
+        },
+        "elementResistances": {
+            "weak": {
+                "element": "fire"
+            },
+            "resist": {
+                "element": "electricity"
+            },
+            "null": {
+                "element": ["bless", "curse"]
+            },
+            "absorb": {
+                "element": "ice"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Freidyne"
+            }],
+            "learned": [{
+                "name": ["Gun Amp", "Triple Down"]
+            }],
+            "combo_skills": [{
+                    "name": "Nocturnal Flash",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Freidyne",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Mafreidyne",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 51,
+        "name": "Cerberus",
+        "level": 57,
+        "arcana": "Chariot",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 3839,
+            "strength": 41,
+            "magic": 35,
+            "endurance": 33,
+            "agility": 41,
+            "luck": 28
+        },
+        "elementResistances": {
+            "weak": {
+                "element": "ice"
+            },
+            "resist": {
+                "element": "nuke"
+            },
+            "absorb": {
+                "element": "fire"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Agidyne"
+            }],
+            "learned": [{
+                "name": ["Speed Master", "Enduring Soul", "Fire Amp", "Inferno"]
+            }],
+            "combo_skills": [{
+                    "name": "Assault Dive",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Agidyne",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "matarukaja",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 52,
+        "name": "Mot",
+        "level": 57,
+        "arcana": "Death",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 4063,
+            "strength": 35,
+            "magic": 38,
+            "endurance": 38,
+            "agility": 34,
+            "luck": 33
+        },
+        "elementResistances": {
+            "weak": {
+                "element": "wind"
+            },
+            "resist": {
+                "element": "gun"
+            },
+            "absorb": {
+                "element": "electricity"
+            },
+            "null": {
+                "element": "curse"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Megidola"
+            }],
+            "learned": [{
+                "name": ["Concentrate", "Nuke Amp", "Cosmic Flare"]
+            }],
+            "combo_skills": [{
+                    "name": "Marakukaja",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Megidola",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Mafreidyne",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 53,
+        "name": "Yatagarasu",
+        "level": 58,
+        "arcana": "Sun",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 4031,
+            "strength": 36,
+            "magic": 42,
+            "endurance": 30,
+            "agility": 41,
+            "luck": 32
+        },
+        "elementResistances": {
+            "weak": {
+                "element": ["gun", "curse"]
+            },
+            "resist": {
+                "element": "wind"
+            },
+            "null": {
+                "element": "bless"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Ziodyne"
+            }],
+            "learned": [{
+                "name": ["Maziodyne", "Knockdown Style"]
+            }],
+            "combo_skills": [{
+                    "name": "Sukukaja",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Ziodyne",
+                    "input": "△□△□"
+                },
+                {
+                    "name": "Dekunda",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 54,
+        "name": "Cu Chulainn",
+        "level": 59,
+        "arcana": "Star",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 3075,
+            "strength": 40,
+            "magic": 32,
+            "endurance": 40,
+            "agility": 40,
+            "luck": 32
+        },
+        "elementResistances": {
+            "weak": {
+                "element": "electricity"
+            },
+            "resist": {
+                "element": ["physical", "gun"]
+            },
+            "null": {
+                "element": "wind"
+            },
+            "absorb": {
+                "element": "bless"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Brave Blade"
+            }],
+            "learned": [{
+                "name": ["Rage Boost", "Matarukaja", "Regenerate 3"]
+            }],
+            "combo_skills": [{
+                    "name": "Dormin Rush",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Oni Kagura",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "matarukaja",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 55,
+        "name": "Forneus",
+        "level": 60,
+        "arcana": "Hierophant",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 4079,
+            "strength": 39,
+            "magic": 37,
+            "endurance": 38,
+            "agility": 40,
+            "luck": 33
+        },
+        "elementResistances": {
+            "weak": {
+                "element": "electricity"
+            },
+            "null": {
+                "element": "ice"
+            },
+            "absorb": {
+                "element": "psychic"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Mapsiodyne"
+            }],
+            "learned": [{
+                "name": ["Psy Amp", "Technical Adept", "Psycho Blast"]
+            }],
+            "combo_skills": [{
+                    "name": "Mapsiodyne",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Makajamaon",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 56,
+        "name": "Thor",
+        "level": 61,
+        "arcana": "Chariot",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 4031,
+            "strength": 42,
+            "magic": 37,
+            "endurance": 41,
+            "agility": 37,
+            "luck": 33
+        },
+        "elementResistances": {
+            "weak": {
+                "element": ["wind", "psychic"]
+            },
+            "resist": {
+                "element": ["physical", "bless", "curse"]
+            },
+            "null": {
+                "element": "electricity"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Maziodyne"
+            }],
+            "learned": [{
+                "name": ["Electricity Amp", "Attack Master", "Wild Thunder"]
+            }],
+            "combo_skills": [{
+                    "name": "Tarukaja",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Maziodyne",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Megaton Raid",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 57,
+        "name": "Dominion",
+        "level": 62,
+        "arcana": "Justice",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 1017,
+            "strength": 38,
+            "magic": 41,
+            "endurance": 39,
+            "agility": 40,
+            "luck": 35
+        },
+        "elementResistances": {
+            "weak": {
+                "element": ["gun", "electricity"]
+            },
+            "resist": {
+                "element": "curse"
+            },
+            "null": {
+                "element": "bless"
+            },
+            "absorb": {
+                "element": "nuke"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Hamaon"
+            }],
+            "learned": [{
+                "name": ["Hama Boost", "Mahamaon", "Bless Amp"]
+            }],
+            "combo_skills": [{
+                    "name": "Hamaon",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Kougaon",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Mahamaon",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 58,
+        "name": "King Frost",
+        "level": 63,
+        "arcana": "Emperor",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 3583,
+            "strength": 41,
+            "magic": 46,
+            "endurance": 44,
+            "agility": 30,
+            "luck": 35
+        },
+        "elementResistances": {
+            "weak": {
+                "element": "fire"
+            },
+            "null": {
+                "element": "bless"
+            },
+            "absorb": {
+                "element": "ice"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Bufudyne"
+            }],
+            "learned": [{
+                "name": ["Defense Master", "Regenerate 2", "Ice Amp", "Ice Age"]
+            }],
+            "combo_skills": [{
+                    "name": "Marakunda",
+                    "input": "□□△△"
+                }, {
+                    "name": "Bufudyne",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Mabufudyne",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 59,
+        "name": "Kali",
+        "level": 64,
+        "arcana": "Empress",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 4079,
+            "strength": 42,
+            "magic": 38,
+            "endurance": 40,
+            "agility": 42,
+            "luck": 37
+        },
+        "elementResistances": {
+            "weak": {
+                "element": "ice"
+            },
+            "resist": {
+                "element": "curse"
+            },
+            "null": {
+                "element": ["fire", "psychic"]
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Vorpal Blade"
+            }],
+            "learned": [{
+                "name": ["Myriad Slashes", "Evade Ice", "Mapsiodyne", "Psycho Force"]
+            }],
+            "combo_skills": [{
+                    "name": "Oni Kagura",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Psiodyne",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Vorpal Blade",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 60,
+        "name": "Abaddon",
+        "level": 66,
+        "arcana": "Judgement",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 1014,
+            "strength": 45,
+            "magic": 37,
+            "endurance": 49,
+            "agility": 36,
+            "luck": 38
+        },
+        "elementResistances": {
+            "weak": {
+                "element": ["psychic", "nuke"]
+            },
+            "resist": {
+                "element": ["physical", "bless"]
+            },
+            "null": {
+                "element": "gun"
+            },
+            "absorb": {
+                "element": "curse"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Brain Buster"
+            }],
+            "learned": [{
+                "name": ["Defense Master", "Survival Trick", "Agneyastra"]
+            }],
+            "combo_skills": [{
+                    "name": "Brain Buster",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Maeigaon",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Deathbound",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 61,
+        "name": "Black Frost",
+        "level": 67,
+        "arcana": "Fool",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 3583,
+            "strength": 44,
+            "magic": 46,
+            "endurance": 41,
+            "agility": 42,
+            "luck": 35
+        },
+        "elementResistances": {
+            "weak": {
+                "element": "bless"
+            },
+            "resist": {
+                "element": "nuke"
+            },
+            "null": {
+                "element": ["fire", "curse"]
+            },
+            "absorb": {
+                "element": "ice"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Mabufudyne"
+            }],
+            "learned": [{
+                "name": ["Soul Thief", "Ailment Boost", "Diamond Dust", "Null Nuke"]
+            }],
+            "combo_skills": [{
+                    "name": "Evil Smile",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Mabufudyne",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Deathbound",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 62,
+        "name": "Siegfried",
+        "level": 69,
+        "arcana": "Strength",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 3075,
+            "strength": 51,
+            "magic": 37,
+            "endurance": 47,
+            "agility": 48,
+            "luck": 31
+        },
+        "elementResistances": {
+            "weak": {
+                "element": ["wind", "nuke"]
+            },
+            "resist": {
+                "element": ["physical", "ice"]
+            },
+            "null": {
+                "element": "electricity"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Megaton Raid"
+            }],
+            "learned": [{
+                "name": ["Vorpal Blade", "Enduring Soul", "Technical High", "God's Hand"]
+            }],
+            "combo_skills": [{
+                    "name": "Vorpal Blade",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Megaton Raid",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Heat Riser",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 63,
+        "name": "Mara",
+        "level": 72,
+        "arcana": "Tower",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 3839,
+            "strength": 50,
+            "magic": 43,
+            "endurance": 43,
+            "agility": 44,
+            "luck": 43
+        },
+        "elementResistances": {
+            "weak": {
+                "element": "psychic"
+            },
+            "resist": {
+                "element": ["nuke", "bless"]
+            },
+            "null": {
+                "element": ["gun", "curse"]
+            },
+            "absorb": {
+                "element": "fire"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Maralagidyne"
+            }],
+            "learned": [{
+                "name": ["Defense Master", "God's Hand", "Firm Stance"]
+            }],
+            "combo_skills": [{
+                    "name": "One-shot-Kill",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Maralagidyne",
+                    "input": "□□□△△"
+                },
+                {
+                    "name": "Charge",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 64,
+        "name": "Alice",
+        "level": 75,
+        "arcana": "Death",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 1014,
+            "strength": 41,
+            "magic": 55,
+            "endurance": 39,
+            "agility": 54,
+            "luck": 43
+        },
+        "elementResistances": {
+            "weak": {
+                "element": "bless"
+            },
+            "resist": {
+                "element": ["psychic", "nuke"]
+            },
+            "absorb": {
+                "element": "curse"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Mamudoon"
+            }],
+            "learned": [{
+                "name": ["Survival Trick", "Mudo Boost", "Die For Me!", "Spell Master"]
+            }],
+            "combo_skills": [{
+                    "name": "Concentrate",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Mamudoon",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Megidolaon",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 65,
+        "name": "Yoshitsune",
+        "level": 78,
+        "arcana": "Tower",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 3075,
+            "strength": 57,
+            "magic": 46,
+            "endurance": 45,
+            "agility": 52,
+            "luck": 41
+        },
+        "elementResistances": {
+            "resist": {
+                "element": ["fire", "physical"]
+            },
+            "null": {
+                "element": ["electricity", "bless"]
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Brave Blade"
+            }],
+            "learned": [{
+                "name": ["Rebel Soul", "Masukukaja", "Knockdown Style", "Hassou Tobi"]
+            }],
+            "combo_skills": [{
+                    "name": "Tempest Slash",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Brave Blade",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Myriad Slashes",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 66,
+        "name": "Metatron",
+        "level": 80,
+        "arcana": "Justice",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 1017,
+            "strength": 49,
+            "magic": 53,
+            "endurance": 54,
+            "agility": 52,
+            "luck": 39
+        },
+        "elementResistances": {
+            "weak": {
+                "element": ["electricity", "curse"]
+            },
+            "null": {
+                "element": "wind"
+            },
+            "absorb": {
+                "element": ["psychic", "nuke"]
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Makougaon"
+            }],
+            "learned": [{
+                "name": ["Charge", "Salvation", "Angelic grace"]
+            }],
+            "combo_skills": [{
+                    "name": "Sword Dance",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Makougaon",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Debilitate",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    },
+    {
+        "id": 67,
+        "name": "Lucifer",
+        "level": 90,
+        "arcana": "Star",
+        "image": "MEDIA/persona's/",
+        "statistics": {
+            "price": 4095,
+            "strength": 59,
+            "magic": 57,
+            "endurance": 57,
+            "agility": 54,
+            "luck": 50
+        },
+        "elementResistances": {
+            "weak": {
+                "element": "bless"
+            },
+            "resist": {
+                "element": ["physical", "fire", "wind", "electricity", "ice"]
+            },
+            "null": {
+                "element": "gun"
+            },
+            "absorb": {
+                "element": "curse"
+            }
+        },
+        "skills": {
+            "standard": [{
+                "name": "Blazing Hell"
+            }],
+            "learned": [{
+                "name": ["Concentrate", "Morning Star", "Heat Riser", "Shadow of Grief"]
+            }],
+            "combo_skills": [{
+                    "name": "Gigantomachia",
+                    "input": "□□△△"
+                },
+                {
+                    "name": "Blazing Hell",
+                    "input": "□□□△"
+                },
+                {
+                    "name": "Morning Star",
+                    "input": "□□□□□△△"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,2021 @@
+{
+    "physical": [{
+            "name": "Cleave",
+            "cost": "10% HP",
+            "effect": "Light damage, Medium crit",
+            "target": "Close range",
+            "learned_by": ["Arsene", "Goemon"],
+            "skill_card": "Shibuya"
+        },
+        {
+            "name": "Dream Needle",
+            "cost": "10% HP",
+            "effect": "Light damage, Sleep",
+            "target": "Close range",
+            "learned_by": ["Arsene", "Pisaca"],
+            "skill_card": "Shibuya"
+        },
+        {
+            "name": "Lunge",
+            "cost": "10% HP",
+            "effect": "Light damage",
+            "target": "Close range",
+            "learned_by": ["Captain Kidd", "Bicorn", "Eligor", "Hecatoncheires"],
+            "skill_card": "Shibuya"
+        },
+        {
+            "name": "Terror Claw",
+            "cost": "10% HP",
+            "effect": "Light damage, Fear",
+            "target": "Close range",
+            "learned_by": ["Andras", "Orthrus"],
+            "skill_card": "Shibuya"
+        },
+        {
+            "name": "Giant Slice",
+            "cost": "15% HP",
+            "effect": "Medium damage, High crit",
+            "target": "Close range",
+            "learned_by": ["Goemon", "Archangel", "Setanta"],
+            "skill_card": "Sendai"
+        },
+        {
+            "name": "Double Fangs",
+            "cost": "12% HP",
+            "effect": "Medium damage, Medium crit",
+            "target": "Close range",
+            "learned_by": ["Berith", "Orthrus"],
+            "skill_card": "Sendai"
+        },
+        {
+            "name": "Rampage",
+            "cost": "12% HP",
+            "effect": "Medium damage",
+            "target": "Wide range",
+            "learned_by": ["Bicorn", "Berith", "Legion"],
+            "skill_card": "Sendai"
+        },
+        {
+            "name": "Vajra Blast",
+            "cost": "12% HP",
+            "effect": "Medium damage",
+            "target": "Wide range",
+            "learned_by": ["Archangel", "Mitra", "Ganesha"],
+            "skill_card": "Sendai"
+        },
+        {
+            "name": "Vicious Strike",
+            "cost": "12% HP",
+            "effect": "Light damage, Medium crit",
+            "target": "Wide range",
+            "learned_by": ["Goemon", "Mithras", "Norn"],
+            "skill_card": "Sendai"
+        },
+        {
+            "name": "Brain Shake",
+            "cost": "10% HP",
+            "effect": "Light damage, Brainwash",
+            "target": "Close range",
+            "learned_by": ["Lamia", "Legion"],
+            "skill_card": "Sendai"
+        },
+        {
+            "name": "Headbutt",
+            "cost": "10% HP",
+            "effect": "Light damage, Forget",
+            "target": "Close range",
+            "learned_by": ["Captain Kidd", "Black Ooze"],
+            "skill_card": "Sendai"
+        },
+        {
+            "name": "Hysterical Slap",
+            "cost": "10% HP",
+            "effect": "Light damage, Rage",
+            "target": "Close range",
+            "learned_by": ["Milady", "Slime"],
+            "skill_card": "Sendai"
+        },
+        {
+            "name": "Sledgehammer",
+            "cost": "10% HP",
+            "effect": "Light damage, Dizzy",
+            "target": "Close range",
+            "learned_by": ["Johanna", "Mokoi"],
+            "skill_card": "Sendai"
+        },
+        {
+            "name": "Dormin Rush",
+            "cost": "12% HP",
+            "effect": "Medium damage, Sleep",
+            "target": "Wide range",
+            "learned_by": ["Zorro", "Setanta", "Cu Chulainn"],
+            "skill_card": "Sapporo"
+        },
+        {
+            "name": "Flash Bomb",
+            "cost": "12% HP",
+            "effect": "Medium damage, Dizzy",
+            "target": "Wide range",
+            "learned_by": ["Johanna", "Mothman"],
+            "skill_card": "Sapporo"
+        },
+        {
+            "name": "Memory Blow",
+            "cost": "12% HP",
+            "effect": "Medium damage, Forget",
+            "target": "Wide range",
+            "learned_by": ["Eligor", "Naga"],
+            "skill_card": "Sapporo"
+        },
+        {
+            "name": "Heat Wave",
+            "cost": "18% HP",
+            "effect": "Heavy damage, High crit",
+            "target": "Wide range",
+            "learned_by": ["Neko Shogun", "Kurama Tengu"],
+            "skill_card": "Kyoto"
+        },
+        {
+            "name": "Tempest Slash",
+            "cost": "18% HP",
+            "effect": "Heavy damage, High crit",
+            "target": "Wide range",
+            "learned_by": ["Goemon", "Mithras", "Okuninushi", "Yoshitsune"],
+            "skill_card": "Kyoto"
+        },
+        {
+            "name": "Swift Strike",
+            "cost": "18% HP",
+            "effect": "Heavy damage",
+            "target": "Wide range",
+            "learned_by": ["Captain Kidd", "Eligor", "Hecatoncheires"],
+            "skill_card": "Apple of Rage"
+        },
+        {
+            "name": "Assault Dive",
+            "cost": "15% HP",
+            "effect": "Heavy damage",
+            "target": "Close range",
+            "learned_by": ["Shiisaa", "Arahabaki", "Unicorn", "Cerberus"],
+            "skill_card": "Apple of Rage"
+        },
+        {
+            "name": "Oni Kagura",
+            "cost": "18% HP",
+            "effect": "Medium damage, Rage",
+            "target": "Wide range",
+            "learned_by": ["Valkyrie", "Cu Chulainn", "Kali"],
+            "skill_card": "Osaka"
+        },
+        {
+            "name": "Bloodbath",
+            "cost": "12% HP",
+            "effect": "Medium damage, Fear",
+            "target": "Wide range",
+            "learned_by": ["Valkyrie", "Bugs"],
+            "skill_card": "Osaka"
+        },
+        {
+            "name": "Brain Buster",
+            "cost": "12% HP",
+            "effect": "Medium damage, Brainwash",
+            "target": "Wide range",
+            "learned_by": ["Valkyrie", "Abaddon"],
+            "skill_card": "Osaka"
+        },
+        {
+            "name": "Deathbound",
+            "cost": "24% HP",
+            "effect": "Severe damage, Medium crit",
+            "target": "Wide range",
+            "learned_by": ["Captain Kidd", "Valjean", "Valkyrie", "Abaddon", "Black Frost"],
+            "skill_card": "Abyssal Bezoar"
+        },
+        {
+            "name": "Megaton Raid",
+            "cost": "24% HP",
+            "effect": "Severe damage, Medium crit",
+            "target": "Close range",
+            "learned_by": ["Captain Kidd", "Cerberus", "Thor", "Siegfried"],
+            "skill_card": "Abyssal Bezoar"
+        },
+        {
+            "name": "Brave Blade",
+            "cost": "20% HP",
+            "effect": "Heavy damage, High crit",
+            "target": "Close range",
+            "learned_by": ["Goemon", "Yoshitsune"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Sword Dance",
+            "cost": "25% HP",
+            "effect": "Severe damage, Very high crit",
+            "target": "Close range",
+            "learned_by": ["Goemon", "Metatron"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Gigantomachia",
+            "cost": "24% HP",
+            "effect": "Severe damage, High crit",
+            "target": "Wide range",
+            "learned_by": ["Lucifer"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Myriad Slashes",
+            "cost": "24% HP",
+            "effect": "Severe damage, High crit",
+            "target": "Wide range",
+            "learned_by": ["Goemon", "Kali", "Yoshitsune"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Vorpal Blade",
+            "cost": "18% HP",
+            "effect": "Severe damage, Medium crit",
+            "target": "Close range",
+            "learned_by": ["Kali", "Siegfried"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Agneyastra",
+            "cost": "30% HP",
+            "effect": "Colossal damage, High crit",
+            "target": "Wide range",
+            "learned_by": ["Captain Kidd", "Valjean", "Abaddon"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "God's Hand",
+            "cost": "25% HP",
+            "effect": "Colossal damage, High crit",
+            "target": "Close range",
+            "learned_by": ["Captain Kidd", "Siegfried", "Mara"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Hassou Tobi",
+            "cost": "30% HP",
+            "effect": "Colossal damage, High crit",
+            "target": "Wide range",
+            "learned_by": ["Yoshitsune"],
+            "skill_card": "Treasure Risky"
+        }
+    ],
+    "gun": [{
+            "name": "Snap",
+            "cost": "16% HP",
+            "effect": "Light damage",
+            "target": "Close range",
+            "learned_by": ["Milady", "Succubus"],
+            "skill_card": "Shibuya"
+        },
+        {
+            "name": "Triple Down",
+            "cost": "24% HP",
+            "effect": "Heavy damage, High crit",
+            "target": "Wide range",
+            "learned_by": ["Milady", "Valjean", "Hecatoncheires", "Trumpeter"],
+            "skill_card": "Osaka"
+        },
+        {
+            "name": "One-shot Kill",
+            "cost": "30% HP",
+            "effect": "Heavy damage, Very high crit",
+            "target": "Close range",
+            "learned_by": ["Arsene", "Milady", "Koppa Tengu", "Valjean", "Seth", "Mara"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Riot Gun",
+            "cost": "40% HP",
+            "effect": "Severe damage, High crit",
+            "target": "Wide range",
+            "learned_by": ["Arsene", "Milady", "Seth"],
+            "skill_card": "Treasure Risky"
+        }
+    ],
+    "fire": [{
+            "name": "Agi",
+            "cost": "8 MP",
+            "effect": "Light damage",
+            "target": "Close range",
+            "learned_by": ["Jack-o'-Lantern", "Carmen"],
+            "skill_card": "Precious Pink"
+        },
+        {
+            "name": "Agilao",
+            "cost": "14 MP",
+            "effect": "Medium damage",
+            "target": "Close range",
+            "learned_by": ["Carmen", "Lamia"],
+            "skill_card": "Diabolus Jewel"
+        },
+        {
+            "name": "Maragi",
+            "cost": "10 MP",
+            "effect": "Light damage",
+            "target": "Wide range",
+            "learned_by": ["Carmen", "Hua Po"],
+            "skill_card": "Diabolus Jewel"
+        },
+        {
+            "name": "Maragion",
+            "cost": "16 MP",
+            "effect": "Medium damage",
+            "target": "Wide range",
+            "learned_by": ["Carmen", "Eligor", "Neko Shogun", "Queen Mab"],
+            "skill_card": "Diabolus Jewel"
+        },
+        {
+            "name": "Agidyne",
+            "cost": "24 MP",
+            "effect": "Heavy damage",
+            "target": "Close range",
+            "learned_by": ["Carmen", "Queen Mab", "Cerberus"],
+            "skill_card": "Amulet of Heroes"
+        },
+        {
+            "name": "Maragidyne",
+            "cost": "26 MP",
+            "effect": "Heavy damage",
+            "target": "Wide range",
+            "learned_by": ["Carmen", "Lilith", "Mara"],
+            "skill_card": "Abyssal Bezoar"
+        },
+        {
+            "name": "Inferno",
+            "cost": "36 MP",
+            "effect": "Severe damage",
+            "target": "Close range",
+            "learned_by": ["Cerberus"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Blazing Hell",
+            "cost": "38 MP",
+            "effect": "Severe damage",
+            "target": "Wide range",
+            "learned_by": ["Carmen", "Lucifer"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Maralagidyne",
+            "cost": "Auto",
+            "effect": "Severe damage",
+            "target": "Wide range",
+            "learned_by": ["Mara"],
+            "skill_card": null
+        }
+    ],
+    "ice": [{
+            "name": "Bufu",
+            "cost": "8 MP",
+            "effect": "Light damage",
+            "target": "Close range",
+            "learned_by": ["Goemon", "Silky"],
+            "skill_card": "Precious Pink"
+        },
+        {
+            "name": "Bufula",
+            "cost": "14 MP",
+            "effect": "Medium damage",
+            "target": "Close range",
+            "learned_by": ["Goemon", "Ame-no-Uzume", "Jack Frost"],
+            "skill_card": "Diabolus Jewel"
+        },
+        {
+            "name": "Mabufu",
+            "cost": "10 MP",
+            "effect": "Light damage",
+            "target": "Wide range",
+            "learned_by": ["Goemon", "Silky", "Andras"],
+            "skill_card": "Diabolus Jewel"
+        },
+        {
+            "name": "Mabufula",
+            "cost": "16 MP",
+            "effect": "Medium damage",
+            "target": "Wide range",
+            "learned_by": ["Goemon", "Jack Frost", "Lilim", "Queen Mab"],
+            "skill_card": "Vanitas"
+        },
+        {
+            "name": "Bufudyne",
+            "cost": "24 MP",
+            "effect": "Heavy damage",
+            "target": "Close range",
+            "learned_by": ["Goemon", "Queen Mab", "King Frost"],
+            "skill_card": "Amulet of Heroes"
+        },
+        {
+            "name": "Mabufudyne",
+            "cost": "26 MP",
+            "effect": "Heavy damage",
+            "target": "Wide range",
+            "learned_by": ["Goemon", "Lilith", "King Frost", "Black Frost"],
+            "skill_card": "Abyssal Bezoar"
+        },
+        {
+            "name": "Diamond Dust",
+            "cost": "36 MP",
+            "effect": "Severe damage",
+            "target": "Close range",
+            "learned_by": ["Black Frost"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Ice Age",
+            "cost": "38 MP",
+            "effect": "Severe damage",
+            "target": "Wide range",
+            "learned_by": ["King Frost"],
+            "skill_card": "Treasure Risky"
+        }
+    ],
+    "electricity": [{
+            "name": "Zio",
+            "cost": "8 MP",
+            "effect": "Light damage",
+            "target": "Close range",
+            "learned_by": ["Captain Kidd", "Pixie"],
+            "skill_card": "Precious Pink"
+        },
+        {
+            "name": "Zionga",
+            "cost": "14 MP",
+            "effect": "Medium damage",
+            "target": "Close range",
+            "learned_by": ["Captain Kidd", "Shiisaa"],
+            "skill_card": "Diabolus Jewel"
+        },
+        {
+            "name": "Mazio",
+            "cost": "10 MP",
+            "effect": "Light damage",
+            "target": "Wide range",
+            "learned_by": ["Captain Kidd", "Pixie"],
+            "skill_card": "Diabolus Jewel"
+        },
+        {
+            "name": "Mazionga",
+            "cost": "16 MP",
+            "effect": "Medium damage",
+            "target": "Wide range",
+            "learned_by": ["Captain Kidd", "Mothman", "Naga"],
+            "skill_card": "Vanitas"
+        },
+        {
+            "name": "Ziodyne",
+            "cost": "24 MP",
+            "effect": "Heavy damage",
+            "target": "Close range",
+            "learned_by": ["Captain Kidd", "Raja Naga", "Yatagarasu"],
+            "skill_card": "Amulet of Heroes"
+        },
+        {
+            "name": "Maziodyne",
+            "cost": "26 MP",
+            "effect": "Heavy damage",
+            "target": "Wide range",
+            "learned_by": ["Captain Kidd", "Raja Naga", "Yatagarasu", "Thor"],
+            "skill_card": "Abyssal Bezoar"
+        },
+        {
+            "name": "Thunder Reign",
+            "cost": "36 MP",
+            "effect": "Severe damage",
+            "target": "Close range",
+            "learned_by": ["Raja Naga"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Wild Thunder",
+            "cost": "38 MP",
+            "effect": "Severe damage",
+            "target": "Wide range",
+            "learned_by": ["Thor"],
+            "skill_card": "Treasure Risky"
+        }
+    ],
+    "wind": [{
+            "name": "Garu",
+            "cost": "6 MP",
+            "effect": "Light damage",
+            "target": "Close range",
+            "learned_by": ["Zorro", "Bicorn"],
+            "skill_card": "Precious Pink"
+        },
+        {
+            "name": "Garula",
+            "cost": "12 MP",
+            "effect": "Medium damage",
+            "target": "Close range",
+            "learned_by": ["Zorro", "High Pixie"],
+            "skill_card": "Diabolus Jewel"
+        },
+        {
+            "name": "Magaru",
+            "cost": "8 MP",
+            "effect": "Light damage",
+            "target": "Wide range",
+            "learned_by": ["Zorro", "High Pixie"],
+            "skill_card": "Diabolus Jewel"
+        },
+        {
+            "name": "Magarula",
+            "cost": "14 MP",
+            "effect": "Medium damage",
+            "target": "Wide range",
+            "learned_by": ["Zorro", "Koppa Tengu"],
+            "skill_card": "Vanitas"
+        },
+        {
+            "name": "Garudyne",
+            "cost": "22 MP",
+            "effect": "Heavy damage",
+            "target": "Close range",
+            "learned_by": ["Zorro", "Fortuna", "Kurama Tengu", "Norn"],
+            "skill_card": "Amulet of Heroes"
+        },
+        {
+            "name": "Magaridyne",
+            "cost": "24 MP",
+            "effect": "Heavy damage",
+            "target": "Wide range",
+            "learned_by": ["Zorro", "Norn", "Lilith"],
+            "skill_card": "Abyssal Bezoar"
+        },
+        {
+            "name": "Panta Rhei",
+            "cost": "34 MP",
+            "effect": "Severe damage",
+            "target": "Close range",
+            "learned_by": ["Norn"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Vacuum Wave",
+            "cost": "36 MP",
+            "effect": "Severe damage",
+            "target": "Wide range",
+            "learned_by": ["Fortuna"],
+            "skill_card": "Treasure Risky"
+        }
+    ],
+    "psy": [{
+            "name": "Psi",
+            "cost": "8 MP",
+            "effect": "Light damage",
+            "target": "Close range",
+            "learned_by": ["Milady", "Succubus"],
+            "skill_card": "Precious Pink"
+        },
+        {
+            "name": "Psio",
+            "cost": "14 MP",
+            "effect": "Medium damage",
+            "target": "Close range",
+            "learned_by": ["Milady", "Legion", "Okuninushi"],
+            "skill_card": "Diabolus Jewel"
+        },
+        {
+            "name": "Mapsi",
+            "cost": "10 MP",
+            "effect": "Light damage",
+            "target": "Wide range",
+            "learned_by": ["Milady"],
+            "skill_card": "Diabolus Jewel"
+        },
+        {
+            "name": "Mapsio",
+            "cost": "16 MP",
+            "effect": "Medium damage",
+            "target": "Wide range",
+            "learned_by": ["Milady", "Kaiwan"],
+            "skill_card": "Vanitas"
+        },
+        {
+            "name": "Psiodyne",
+            "cost": "24 MP",
+            "effect": "Heavy damage",
+            "target": "Close range",
+            "learned_by": ["Milady", "Okuninushi", "Bugs", "Kali"],
+            "skill_card": "Amulet of Heroes"
+        },
+        {
+            "name": "Mapsiodyne",
+            "cost": "26 MP",
+            "effect": "Heavy damage",
+            "target": "Wide range",
+            "learned_by": ["Milady", "Forneus", "Kali"],
+            "skill_card": "Abyssal Bezoar"
+        },
+        {
+            "name": "Psycho Force",
+            "cost": "36 MP",
+            "effect": "Severe damage",
+            "target": "Close range",
+            "learned_by": ["Kali"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Psycho Blast",
+            "cost": "38 MP",
+            "effect": "Severe damage",
+            "target": "Wide range",
+            "learned_by": ["Forneus"],
+            "skill_card": "Treasure Risky"
+        }
+    ],
+    "nuke": [{
+            "name": "Frei",
+            "cost": "8 MP",
+            "effect": "Light damage",
+            "target": "Close range",
+            "learned_by": ["Johanna", "Orthrus"],
+            "skill_card": "Precious Pink"
+        },
+        {
+            "name": "Freila",
+            "cost": "14 MP",
+            "effect": "Medium damage",
+            "target": "Close range",
+            "learned_by": ["Johanna", "Orthrus"],
+            "skill_card": "Diabolus Jewel"
+        },
+        {
+            "name": "Mafrei",
+            "cost": "10 MP",
+            "effect": "Light damage",
+            "target": "Wide range",
+            "learned_by": ["Johanna", "Setanta"],
+            "skill_card": "Diabolus Jewel"
+        },
+        {
+            "name": "Mafreila",
+            "cost": "16 MP",
+            "effect": "Medium damage",
+            "target": "Wide range",
+            "learned_by": ["Johanna", "Unicorn", "Mithras"],
+            "skill_card": "Vanitas"
+        },
+        {
+            "name": "Freidyne",
+            "cost": "24 MP",
+            "effect": "Heavy damage",
+            "target": "Close range",
+            "learned_by": ["Johanna", "Mithras", "Ganesha", "Trumpeter"],
+            "skill_card": "Amulet of Heroes"
+        },
+        {
+            "name": "Mafreidyne",
+            "cost": "26 MP",
+            "effect": "Heavy damage",
+            "target": "Wide range",
+            "learned_by": ["Johanna", "Trumpeter", "Mot"],
+            "skill_card": "Abyssal Bezoar"
+        },
+        {
+            "name": "Atomic Flare",
+            "cost": "36 MP",
+            "effect": "Severe damage",
+            "target": "Close range",
+            "learned_by": ["Johanna", "Ganesha"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Cosmic Flare",
+            "cost": "38 MP",
+            "effect": "Severe damage",
+            "target": "Wide range",
+            "learned_by": ["Mot"],
+            "skill_card": "Treasure Risky"
+        }
+    ],
+
+    "bless": [{
+            "name": "Kouha",
+            "cost": "8 MP",
+            "effect": "Light damage",
+            "target": "Close range",
+            "learned_by": ["Pithos"],
+            "skill_card": "Precious Pink"
+        },
+        {
+            "name": "Kouga",
+            "cost": "14 MP",
+            "effect": "Medium damage",
+            "target": "Close range",
+            "learned_by": ["Pithos", "Mitra"],
+            "skill_card": "Diabolus Jewel"
+        },
+        {
+            "name": "Makouha",
+            "cost": "10 MP",
+            "effect": "Light damage",
+            "target": "Wide range",
+            "learned_by": ["Pithos", "Archangel"],
+            "skill_card": "Diabolus Jewel"
+        },
+        {
+            "name": "Makouga",
+            "cost": "16 MP",
+            "effect": "Medium damage",
+            "target": "Wide range",
+            "learned_by": ["Pithos", "Principality", "Mitra"],
+            "skill_card": "Vanitas"
+        },
+        {
+            "name": "Kougaon",
+            "cost": "24 MP",
+            "effect": "Heavy damage",
+            "target": "Close range",
+            "learned_by": ["Pithos", "Dominion"],
+            "skill_card": "Amulet of Heroes"
+        },
+        {
+            "name": "Makougaon",
+            "cost": "26 MP",
+            "effect": "Heavy damage",
+            "target": "Wide range",
+            "learned_by": ["Pithos", "Metatron"],
+            "skill_card": "Abyssal Bezoar"
+        },
+        {
+            "name": "Hama",
+            "cost": "8 MP",
+            "effect": "Low chance instakill",
+            "target": "Close range",
+            "learned_by": ["Archangel"],
+            "skill_card": "Diabolus Jewel"
+        },
+        {
+            "name": "Mahama",
+            "cost": "12 MP",
+            "effect": "Low chance instakill",
+            "target": "Wide range",
+            "learned_by": ["Mitra"],
+            "skill_card": "Frozen Blood"
+        },
+        {
+            "name": "Hamaon",
+            "cost": "10 MP",
+            "effect": "Medium chance instakill",
+            "target": "Close range",
+            "learned_by": ["Dominion"],
+            "skill_card": "Vanitas"
+        },
+        {
+            "name": "Mahamaon",
+            "cost": "14 MP",
+            "effect": "Medium chance instakill",
+            "target": "Wide range",
+            "learned_by": ["Dominion"],
+            "skill_card": "Amulet of Heroes"
+        }
+    ],
+
+    "curse": [{
+            "name": "Eiha",
+            "cost": "8 MP",
+            "effect": "Light damage",
+            "target": "Close range",
+            "learned_by": ["Arsene", "Slime"],
+            "skill_card": "Precious Pink"
+        },
+        {
+            "name": "Eiga",
+            "cost": "14 MP",
+            "effect": "Medium damage",
+            "target": "Close range",
+            "learned_by": ["Black Ooze", "Mitra"],
+            "skill_card": "Diabolus Jewel"
+        },
+        {
+            "name": "Maeiha",
+            "cost": "10 MP",
+            "effect": "Light damage",
+            "target": "Wide range",
+            "learned_by": ["Slime"],
+            "skill_card": "Diabolus Jewel"
+        },
+        {
+            "name": "Maeiga",
+            "cost": "14 MP",
+            "effect": "Medium damage",
+            "target": "Wide range",
+            "learned_by": ["Arsene", "Mitra", "Arahabaki"],
+            "skill_card": "Vanitas"
+        },
+        {
+            "name": "Eigaon",
+            "cost": "24 MP",
+            "effect": "Heavy damage",
+            "target": "Close range",
+            "learned_by": ["Seth", "Nebiros", "Forneus"],
+            "skill_card": "Amulet of Heroes"
+        },
+        {
+            "name": "Maeigaon",
+            "cost": "26 MP",
+            "effect": "Heavy damage",
+            "target": "Wide range",
+            "learned_by": ["Arsene", "Abaddon", "Mara"],
+            "skill_card": "Abyssal Bezoar"
+        },
+        {
+            "name": "Mudo",
+            "cost": "8 MP",
+            "effect": "Low chance instakill",
+            "target": "Close range",
+            "learned_by": ["Pisaca"],
+            "skill_card": "Diabolus Jewel"
+        },
+        {
+            "name": "Mamudo",
+            "cost": "12 MP",
+            "effect": "Low chance instakill",
+            "target": "Wide range",
+            "learned_by": ["Pisaca"],
+            "skill_card": "Frozen Blood"
+        },
+        {
+            "name": "Mudoon",
+            "cost": "10 MP",
+            "effect": "Medium chance instakill",
+            "target": "Close range",
+            "learned_by": ["Nebiros"],
+            "skill_card": "Vanitas"
+        },
+        {
+            "name": "Mamudoon",
+            "cost": "14 MP",
+            "effect": "Medium chance instakill",
+            "target": "Wide range",
+            "learned_by": ["Alice"],
+            "skill_card": "Amulet of Heroes"
+        },
+        {
+            "name": "Die For Me!",
+            "cost": "20 MP",
+            "effect": "High chance instakill",
+            "target": "Wide range",
+            "learned_by": ["Alice"],
+            "skill_card": "Treasure Risky"
+        }
+    ],
+    "almighty": [{
+            "name": "Life Drain",
+            "cost": "10 MP",
+            "effect": "Absorbs HP",
+            "target": "Close range",
+            "learned_by": ["Pisaca", "Legion"],
+            "skill_card": "Precious Pink"
+        },
+        {
+            "name": "Megido",
+            "cost": "14 MP",
+            "effect": "Medium damage",
+            "target": "Wide range",
+            "learned_by": ["Mothman", "Valjean"],
+            "skill_card": "Vanitas"
+        },
+        {
+            "name": "Megidola",
+            "cost": "24 MP",
+            "effect": "Heavy damage",
+            "target": "Wide range",
+            "learned_by": ["Valjean", "Norn", "Mot"],
+            "skill_card": "Abyssal Bezoar"
+        },
+        {
+            "name": "Megidolaon",
+            "cost": "36 MP",
+            "effect": "Severe damage",
+            "target": "Wide range",
+            "learned_by": ["Valjean", "Alice", "Metatron"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Morning Star",
+            "cost": "48 MP",
+            "effect": "Colossal damage",
+            "target": "Wide range",
+            "learned_by": ["Lucifer"],
+            "skill_card": "Treasure Risky"
+        }
+    ],
+    "ailments": [{
+            "name": "Dazzler",
+            "cost": "8 MP",
+            "effect": "Inflicts Dizzy",
+            "target": "Close range",
+            "learned_by": ["Archangel"],
+            "skill_card": "Frozen Blood"
+        },
+        {
+            "name": "Dormina",
+            "cost": "8 MP",
+            "effect": "Inflicts Sleep",
+            "target": "Close range",
+            "learned_by": ["Silky"],
+            "skill_card": "Frozen Blood"
+        },
+        {
+            "name": "Evil Touch",
+            "cost": "8 MP",
+            "effect": "Inflicts Fear",
+            "target": "Close range",
+            "learned_by": ["Milady", "Slime"],
+            "skill_card": "Frozen Blood"
+        },
+        {
+            "name": "Makajam",
+            "cost": "8 MP",
+            "effect": "Inflicts Forget",
+            "target": "Close range",
+            "learned_by": ["High Pixie", "Principality"],
+            "skill_card": "Frozen Blood"
+        },
+        {
+            "name": "Marin Karin",
+            "cost": "8 MP",
+            "effect": "Inflicts Brainwash",
+            "target": "Close range",
+            "learned_by": ["Carmen", "Succubus"],
+            "skill_card": "Frozen Blood"
+        },
+        {
+            "name": "Taunt",
+            "cost": "8 MP",
+            "effect": "Inflicts Rage",
+            "target": "Close range",
+            "learned_by": ["Goemon", "Koppa Tengu"],
+            "skill_card": "Frozen Blood"
+        },
+        {
+            "name": "Brain Jack",
+            "cost": "10 MP",
+            "effect": "Inflicts Brainwash",
+            "target": "Wide range",
+            "learned_by": ["Carmen", "Lilith"],
+            "skill_card": "Abyss"
+        },
+        {
+            "name": "Evil Smile",
+            "cost": "10 MP",
+            "effect": "Inflicts Fear",
+            "target": "Wide range",
+            "learned_by": ["Milady", "Lilim", "Black Frost"],
+            "skill_card": "Abyss"
+        },
+        {
+            "name": "Lullaby",
+            "cost": "10 MP",
+            "effect": "Inflicts Sleep",
+            "target": "Wide range",
+            "learned_by": ["Kikuri-Hime"],
+            "skill_card": "Abyss"
+        },
+        {
+            "name": "Makajamaon",
+            "cost": "10 MP",
+            "effect": "Inflicts Forget",
+            "target": "Wide range",
+            "learned_by": ["Queen Mab", "Forneus"],
+            "skill_card": "Abyss"
+        },
+        {
+            "name": "Nocturnal Flash",
+            "cost": "10 MP",
+            "effect": "Inflicts Dizzy",
+            "target": "Wide range",
+            "learned_by": ["Kurama Tengu", "Trumpeter", "Dominion"],
+            "skill_card": "Abyss"
+        },
+        {
+            "name": "Wage War",
+            "cost": "10 MP",
+            "effect": "Inflicts Rage",
+            "target": "Wide range",
+            "learned_by": ["Thor"],
+            "skill_card": "Abyss"
+        }
+    ],
+    "Recovery": [{
+            "name": "Dia",
+            "cost": "6 MP",
+            "effect": "Slightly restore HP",
+            "target": "1 ally",
+            "learned_by": ["Pithos", "Zorro", "Pixie", "Carmen", "Johanna"],
+            "skill_card": "Precious Pink"
+        },
+        {
+            "name": "Diarama",
+            "cost": "16 MP",
+            "effect": "Moderately restore HP",
+            "target": "1 ally",
+            "learned_by": ["Pithos", "Zorro", "Carmen", "Johanna", "Ame-no-Uzume", "Kikuri-Hime"],
+            "skill_card": "Vanitas"
+        },
+        {
+            "name": "Media",
+            "cost": "14 MP",
+            "effect": "Slightly restore HP",
+            "target": "All allies",
+            "learned_by": ["Pithos", "Zorro", "Johanna", "High Pixie", "Ame-no-Uzume", "Principality"],
+            "skill_card": "Vanitas"
+        },
+        {
+            "name": "Mediarama",
+            "cost": "32 MP",
+            "effect": "Moderately restore HP",
+            "target": "All allies",
+            "learned_by": ["Pithos", "Zorro", "Johanna", "Unicorn", "Kikuri-Hime", "Sarasvati"],
+            "skill_card": "Amulet of Heroes"
+        },
+        {
+            "name": "Diarahan",
+            "cost": "40 MP",
+            "effect": "Fully restore HP",
+            "target": "1 ally",
+            "learned_by": ["Pithos", "Zorro", "Carmen", "Johanna", "Sarasvati", "Norn"],
+            "skill_card": "Abyssal Bezoar"
+        },
+        {
+            "name": "Mediarahan",
+            "cost": "68 MP",
+            "effect": "Fully restore HP",
+            "target": "All allies",
+            "learned_by": ["Pithos", "Zorro", "Johanna"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Recarm",
+            "cost": "24 MP",
+            "effect": "Revive with 50% HP",
+            "target": "1 ally",
+            "learned_by": ["Pithos", "Zorro", "High Pixie", "Principality", "Unicorn"],
+            "skill_card": "Amulet of Heroes"
+        },
+        {
+            "name": "Samarecarm",
+            "cost": "48 MP",
+            "effect": "Revive with 100% HP",
+            "target": "1 ally",
+            "learned_by": ["Pithos", "Zorro", "Norn"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Salvation",
+            "cost": "84 MP",
+            "effect": "Mediarahan + Amrita Shower + Samarecarm",
+            "target": "All allies",
+            "learned_by": ["Zorro", "Metatron"],
+            "skill_card": "Treasure Risky"
+        }
+    ],
+    "support": [{
+            "name": "Rakukaja",
+            "cost": "12 MP",
+            "effect": "Raise defense and prevents attacks from being interrupted for 30 sec",
+            "target": "1 ally",
+            "learned_by": ["Johanna", "Berith", "Valjean", "Naga"],
+            "skill_card": "Shibuya"
+        },
+        {
+            "name": "Rakunda",
+            "cost": "12 MP",
+            "effect": "Lower defense for 30 sec",
+            "target": "Close range",
+            "learned_by": ["Pithos", "Jack-o'-Lantern", "Eligor"],
+            "skill_card": "Shibuya"
+        },
+        {
+            "name": "Sukukaja",
+            "cost": "12 MP",
+            "effect": "Raise critical-evade and auto-evade rate for 30 sec",
+            "target": "1 ally",
+            "learned_by": ["Goemon", "Shiisaa", "Neko Shogun", "Valjean", "Yatagarasu"],
+            "skill_card": "Shibuya"
+        },
+        {
+            "name": "Sukunda",
+            "cost": "12 MP",
+            "effect": "Lower critical-evade and auto-evade rate for 30 sec",
+            "target": "Close range",
+            "learned_by": ["Andras"],
+            "skill_card": "Shibuya"
+        },
+        {
+            "name": "Tarukaja",
+            "cost": "12 MP",
+            "effect": "Raise attack for 30 sec",
+            "target": "1 ally",
+            "learned_by": ["Captain Kidd", "Mokoi", "Eligor", "Valjean", "Hecatoncheires", "Thor"],
+            "skill_card": "Shibuya"
+        },
+        {
+            "name": "Tarunda",
+            "cost": "12 MP",
+            "effect": "Lower attack for 30 sec",
+            "target": "Close range",
+            "learned_by": ["Arsene", "Carmen", "Hua Po"],
+            "skill_card": "Shibuya"
+        },
+        {
+            "name": "Dekaja",
+            "cost": "6 MP",
+            "effect": "Remove -kaja effects",
+            "target": "Wide range",
+            "learned_by": ["Carmen", "Silky", "Lilim", "Valjean", "Sarasvati"],
+            "skill_card": "Sendai"
+        },
+        {
+            "name": "Dekunda",
+            "cost": "6 MP",
+            "effect": "Remove -kunda effects",
+            "target": "All allies",
+            "learned_by": ["Johanna", "Mokoi", "Sarasvati", "Yatagarasu"],
+            "skill_card": "Sendai"
+        },
+        {
+            "name": "Tetraja",
+            "cost": "6 MP",
+            "effect": "Nullify next instakill attack",
+            "target": "1 ally",
+            "learned_by": ["Pithos", "Lamia", "Valjean"],
+            "skill_card": "Sendai"
+        },
+        {
+            "name": "Marakukaja",
+            "cost": "24 MP",
+            "effect": "Raise defense and prevents attacks from being interrupted for 30 sec",
+            "target": "All allies",
+            "learned_by": ["Johanna", "Kikuri-Hime", "Mithras", "Mot"],
+            "skill_card": "Osaka"
+        },
+        {
+            "name": "Masukukaja",
+            "cost": "24 MP",
+            "effect": "Raise critical-evade and auto-evade rate for 30 sec",
+            "target": "All allies",
+            "learned_by": ["Goemon", "Ame-no-Uzume", "Raja Naga", "Seth", "Yoshitsune"],
+            "skill_card": "Osaka"
+        },
+        {
+            "name": "Matarukaja",
+            "cost": "24 MP",
+            "effect": "Raise attack for 30 sec",
+            "target": "All allies",
+            "learned_by": ["Captain Kidd", "Okuninushi", "Cerberus", "Cu Chulainn"],
+            "skill_card": "Osaka"
+        },
+        {
+            "name": "Marakunda",
+            "cost": "16 MP",
+            "effect": "Lower defense for 30 sec",
+            "target": "Wide range",
+            "learned_by": ["Pithos", "Jack Frost", "Kurama Tengu", "King Frost"],
+            "skill_card": "Osaka"
+        },
+        {
+            "name": "Masukunda",
+            "cost": "16 MP",
+            "effect": "Lower critical-evade and auto-evade rate for 30 sec",
+            "target": "Wide range",
+            "learned_by": ["Zorro", "Arahabaki", "Bugs"],
+            "skill_card": "Osaka"
+        },
+        {
+            "name": "Matarunda",
+            "cost": "16 MP",
+            "effect": "Lower attack for 30 sec",
+            "target": "Wide range",
+            "learned_by": ["Carmen", "Black Ooze", "Sarasvati", "Fortuna"],
+            "skill_card": "Osaka"
+        },
+        {
+            "name": "Charge",
+            "cost": "26 MP",
+            "effect": "Next Physical attack deals over double damage",
+            "target": "Self",
+            "learned_by": ["Captain Kidd", "Ganesha", "Siegfried", "Mara", "Yoshitsune", "Metatron"],
+            "skill_card": "Request"
+        },
+        {
+            "name": "Concentrate",
+            "cost": "26 MP",
+            "effect": "Next Magical attack deals over double damage",
+            "target": "Self",
+            "learned_by": ["Carmen", "Kaiwan", "Fortuna", "Mot", "Alice", "Lucifer"],
+            "skill_card": "Request"
+        },
+        {
+            "name": "Debilitate",
+            "cost": "36 MP",
+            "effect": "Tarunda + Rakunda + Sukunda",
+            "target": "Close range",
+            "learned_by": ["Valjean", "Nebiros", "Metatron"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Heat Riser",
+            "cost": "36 MP",
+            "effect": "Tarukaja + Rakukaja + Sukukaja",
+            "target": "1 ally",
+            "learned_by": ["Milady", "Valjean", "Siegfried", "Lucifer"],
+            "skill_card": "Treasure Risky"
+        }
+    ],
+    "passive": [{
+            "name": "Null Brainwash",
+            "cost": "Auto",
+            "effect": "Imparts immunity to Brainwash",
+            "target": "Self",
+            "learned_by": ["Succubus (Lv. 12)"],
+            "skill_card": "Shibuya"
+        },
+        {
+            "name": "Null Dizzy",
+            "cost": "Auto",
+            "effect": "Imparts immunity to Dizzy",
+            "target": "Self",
+            "learned_by": ["Bicorn (Lv. 7)"],
+            "skill_card": "Shibuya"
+        },
+        {
+            "name": "Null Fear",
+            "cost": "Auto",
+            "effect": "Imparts immunity to Fear",
+            "target": "Self",
+            "learned_by": ["Berith (Lv. 16)"],
+            "skill_card": "Shibuya"
+        },
+        {
+            "name": "Null Forget",
+            "cost": "Auto",
+            "effect": "Imparts immunity to Forget",
+            "target": "Self",
+            "learned_by": ["Hua Po (Lv. 16)", "Lilim (Lv. 27)"],
+            "skill_card": "Shibuya"
+        },
+        {
+            "name": "Null Rage",
+            "cost": "Auto",
+            "effect": "Imparts immunity to Rage",
+            "target": "Self",
+            "learned_by": ["Mokoi (Lv. 12)"],
+            "skill_card": "Shibuya"
+        },
+        {
+            "name": "Null Sleep",
+            "cost": "Auto",
+            "effect": "Imparts immunity to Sleep",
+            "target": "Self",
+            "learned_by": ["Pixie (Lv. 3)"],
+            "skill_card": "Shibuya"
+        },
+        {
+            "name": "Regenerate 1",
+            "cost": "Auto",
+            "effect": "Gradually restores HP (minimum effect); stacks with other Regenerate skills",
+            "target": "Self",
+            "learned_by": ["Setanta (Lv. 31)"],
+            "skill_card": "Sendai"
+        },
+        {
+            "name": "Brainwash Boost",
+            "cost": "Auto",
+            "effect": "Increases chance of inflicting Brainwash",
+            "target": "Self",
+            "learned_by": ["Lamia (Lv. 22)", "Legion (Lv. 41)"],
+            "skill_card": "Sapporo"
+        },
+        {
+            "name": "Burn Boost",
+            "cost": "Auto",
+            "effect": "Increases chance of inflicting Burn",
+            "target": "Self",
+            "learned_by": ["Jack-o'-Lantern (Lv. 3)", "Carmen (Lv. 50)"],
+            "skill_card": "Sapporo"
+        },
+        {
+            "name": "Dizzy Boost",
+            "cost": "Auto",
+            "effect": "Increases chance of inflicting Dizzy",
+            "target": "Self",
+            "learned_by": ["Mothman (Lv. 30)"],
+            "skill_card": "Sapporo"
+        },
+        {
+            "name": "Fear Boost",
+            "cost": "Auto",
+            "effect": "Increases chance of inflicting Fear",
+            "target": "Self",
+            "learned_by": ["Bugs (Lv. 55)"],
+            "skill_card": "Sapporo"
+        },
+        {
+            "name": "Forget Boost",
+            "cost": "Auto",
+            "effect": "Increases chance of inflicting Forget",
+            "target": "Self",
+            "learned_by": ["Principality (Lv. 30)"],
+            "skill_card": "Sapporo"
+        },
+        {
+            "name": "Freeze Boost",
+            "cost": "Auto",
+            "effect": "Increases chance of inflicting Freeze",
+            "target": "Self",
+            "learned_by": ["Goemon (Lv. 24)", "Jack Frost (Lv. 25)", "King Frost"],
+            "skill_card": "Sapporo"
+        },
+        {
+            "name": "Hama Boost",
+            "cost": "Auto",
+            "effect": "Increases success rate of Bless-type instant death attacks",
+            "target": "Self",
+            "learned_by": ["Dominion (Lv. 63)"],
+            "skill_card": "Sapporo"
+        },
+        {
+            "name": "Knockdown Style",
+            "cost": "Auto",
+            "effect": "Greatly decreases Down Gauge when landing a critical hit",
+            "target": "Self",
+            "learned_by": ["Goemon (Lv. 10)", "Seth (Lv. 55)", "Yatagarasu (Lv. 61)", "Yoshitsune (Lv. 84)"],
+            "skill_card": "Sapporo"
+        },
+        {
+            "name": "Mudo Boost",
+            "cost": "Auto",
+            "effect": "Increases success rate of Curse-type instant death attacks",
+            "target": "Self",
+            "learned_by": ["Nebiros", "Alice (Lv. 81)"],
+            "skill_card": "Sapporo"
+        },
+        {
+            "name": "Rage Boost",
+            "cost": "Auto",
+            "effect": "Increases chance of inflicting Rage",
+            "target": "Self",
+            "learned_by": ["Slime (Lv. 15)", "Cu Chulainn (Lv. 60)"],
+            "skill_card": "Sapporo"
+        },
+        {
+            "name": "Shock Boost",
+            "cost": "Auto",
+            "effect": "Increases chance of inflicting Shock",
+            "target": "Self",
+            "learned_by": ["Captain Kidd (Lv. 35)", "Naga (Lv. 46)"],
+            "skill_card": "Sapporo"
+        },
+        {
+            "name": "Sleep Boost",
+            "cost": "Auto",
+            "effect": "Increases chance of inflicting Sleep",
+            "target": "Self",
+            "learned_by": ["Silky (Lv. 7)", "Setanta (Lv. 28)"],
+            "skill_card": "Sapporo"
+        },
+        {
+            "name": "Technical Adept",
+            "cost": "Auto",
+            "effect": "Increases damage of technical hits",
+            "target": "Self",
+            "learned_by": ["Zorro (Lv. 13)", "Milady (Lv. 11)", "Kaiwan (Lv. 34)", "Forneus (Lv. 64)"],
+            "skill_card": "Sapporo"
+        },
+        {
+            "name": "Technical High",
+            "cost": "Auto",
+            "effect": "Extends duration of -kaja effects on self when landing a critical hit",
+            "target": "Self",
+            "learned_by": ["Captain Kidd (Lv. 65)", "Shiisaa (Lv. 40)", "Valjean (Lv. 42)", "Siegfried (Lv. 75)"],
+            "skill_card": "Sapporo"
+        },
+        {
+            "name": "Dodge Bless",
+            "cost": "Auto",
+            "effect": "Doubles evasion rate against Bless attacks",
+            "target": "Self",
+            "learned_by": ["Frozen Blood"],
+            "skill_card": "Frozen Blood"
+        },
+        {
+            "name": "Dodge Curse",
+            "cost": "Auto",
+            "effect": "Doubles evasion rate against Curse attacks",
+            "target": "Self",
+            "learned_by": ["Shiisaa (Lv. 37)", "Frozen Blood"],
+            "skill_card": "Frozen Blood"
+        },
+        {
+            "name": "Dodge Elec",
+            "cost": "Auto",
+            "effect": "Doubles evasion rate against Elec attacks",
+            "target": "Self",
+            "learned_by": ["Zorro (Lv. 28)", "Frozen Blood"],
+            "skill_card": "Frozen Blood"
+        },
+        {
+            "name": "Dodge Fire",
+            "cost": "Auto",
+            "effect": "Doubles evasion rate against Fire attacks",
+            "target": "Self",
+            "learned_by": ["Goemon (Lv. 21)", "Berith (Lv. 17)", "Frozen Blood"],
+            "skill_card": "Frozen Blood"
+        },
+        {
+            "name": "Dodge Ice",
+            "cost": "Auto",
+            "effect": "Doubles evasion rate against Ice attacks",
+            "target": "Self",
+            "learned_by": ["Carmen (Lv. 30)", "Orthrus (Lv. 23)", "Frozen Blood"],
+            "skill_card": "Frozen Blood"
+        },
+        {
+            "name": "Dodge Nuke",
+            "cost": "Auto",
+            "effect": "Doubles evasion rate against Nuke attacks",
+            "target": "Self",
+            "learned_by": ["Kaiwan (Lv. 32)", "Frozen Blood"],
+            "skill_card": "Frozen Blood"
+        },
+        {
+            "name": "Dodge Phys",
+            "cost": "Auto",
+            "effect": "Doubles evasion rate against Phys attacks",
+            "target": "Self",
+            "learned_by": ["Andras (Lv. 14)", "Bugs (Lv. 58)", "Frozen Blood"],
+            "skill_card": "Frozen Blood"
+        },
+        {
+            "name": "Dodge Psy",
+            "cost": "Auto",
+            "effect": "Doubles evasion rate against Psy attacks",
+            "target": "Self",
+            "learned_by": ["Frozen Blood"],
+            "skill_card": "Frozen Blood"
+        },
+        {
+            "name": "Dodge Wind",
+            "cost": "Auto",
+            "effect": "Doubles evasion rate against Wind attacks",
+            "target": "Self",
+            "learned_by": ["Neko Shogun (Lv. 39)", "Frozen Blood"],
+            "skill_card": "Frozen Blood"
+        },
+        {
+            "name": "Resist Bless",
+            "cost": "Auto",
+            "effect": "Halves damage from Bless attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Okinawa"
+        },
+        {
+            "name": "Resist Curse",
+            "cost": "Auto",
+            "effect": "Halves damage from Curse attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Okinawa"
+        },
+        {
+            "name": "Resist Elec",
+            "cost": "Auto",
+            "effect": "Halves damage from Elec attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Okinawa"
+        },
+        {
+            "name": "Resist Fire",
+            "cost": "Auto",
+            "effect": "Halves damage from Fire attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Okinawa"
+        },
+        {
+            "name": "Resist Ice",
+            "cost": "Auto",
+            "effect": "Halves damage from Ice attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Okinawa"
+        },
+        {
+            "name": "Resist Nuke",
+            "cost": "Auto",
+            "effect": "Halves damage from Nuke attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Okinawa"
+        },
+        {
+            "name": "Resist Phys",
+            "cost": "Auto",
+            "effect": "Halves damage from Phys attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Okinawa"
+        },
+        {
+            "name": "Resist Psy",
+            "cost": "Auto",
+            "effect": "Halves damage from Psy attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Okinawa"
+        },
+        {
+            "name": "Resist Wind",
+            "cost": "Auto",
+            "effect": "Halves damage from Wind attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Okinawa"
+        },
+        {
+            "name": "Evade Bless",
+            "cost": "Auto",
+            "effect": "Triples evasion rate against Bless attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Apple of Rage"
+        },
+        {
+            "name": "Evade Curse",
+            "cost": "Auto",
+            "effect": "Triples evasion rate against Curse attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Apple of Rage"
+        },
+        {
+            "name": "Evade Elec",
+            "cost": "Auto",
+            "effect": "Triples evasion rate against Elec attacks",
+            "target": "Self",
+            "learned_by": ["Fortuna (Lv. 52)"],
+            "skill_card": "Apple of Rage"
+        },
+        {
+            "name": "Evade Fire",
+            "cost": "Auto",
+            "effect": "Triples evasion rate against Fire attacks",
+            "target": "Self",
+            "learned_by": ["Goemon (Lv. 51)"],
+            "skill_card": "Apple of Rage"
+        },
+        {
+            "name": "Evade Ice",
+            "cost": "Auto",
+            "effect": "Triples evasion rate against Ice attacks",
+            "target": "Self",
+            "learned_by": ["Kali (Lv. 67)"],
+            "skill_card": "Apple of Rage"
+        },
+        {
+            "name": "Evade Nuke",
+            "cost": "Auto",
+            "effect": "Triples evasion rate against Nuke attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Apple of Rage"
+        },
+        {
+            "name": "Evade Phys",
+            "cost": "Auto",
+            "effect": "Triples evasion rate against Phys attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Apple of Rage"
+        },
+        {
+            "name": "Evade Psy",
+            "cost": "Auto",
+            "effect": "Triples evasion rate against Psy attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Apple of Rage"
+        },
+        {
+            "name": "Evade Wind",
+            "cost": "Auto",
+            "effect": "Triples evasion rate against Wind attacks",
+            "target": "Self",
+            "learned_by": ["Raja Naga (Lv. 53)"],
+            "skill_card": "Apple of Rage"
+        },
+        {
+            "name": "Bless Boost",
+            "cost": "Auto",
+            "effect": "Bless damage +25%",
+            "target": "Self",
+            "learned_by": ["Pithos (Lv. 16)"],
+            "skill_card": "Amulet of Heroes"
+        },
+        {
+            "name": "Curse Boost",
+            "cost": "Auto",
+            "effect": "Curse damage +25%",
+            "target": "Self",
+            "learned_by": ["Arahabaki (Lv. 38)"],
+            "skill_card": "Amulet of Heroes"
+        },
+        {
+            "name": "Elec Boost",
+            "cost": "Auto",
+            "effect": "Elec damage +25%",
+            "target": "Self",
+            "learned_by": ["Captain Kidd (Lv. 50)", "Raja Naga"],
+            "skill_card": "Amulet of Heroes"
+        },
+        {
+            "name": "Fire Boost",
+            "cost": "Auto",
+            "effect": "Fire damage +25%",
+            "target": "Self",
+            "learned_by": ["Carmen (Lv. 38)"],
+            "skill_card": "Amulet of Heroes"
+        },
+        {
+            "name": "Gun Boost",
+            "cost": "Auto",
+            "effect": "Gun damage +25%",
+            "target": "Self",
+            "learned_by": ["Milady (Lv. 24)", "Koppa Tengu (Lv. 44)", "Valjean"],
+            "skill_card": "Amulet of Heroes"
+        },
+        {
+            "name": "Ice Boost",
+            "cost": "Auto",
+            "effect": "Ice damage +25%",
+            "target": "Self",
+            "learned_by": ["Jack Frost (Lv. 28)"],
+            "skill_card": "Amulet of Heroes"
+        },
+        {
+            "name": "Nuke Boost",
+            "cost": "Auto",
+            "effect": "Nuke damage +25%",
+            "target": "Self",
+            "learned_by": ["Johanna (Lv. 45)", "Mithras (Lv. 43)"],
+            "skill_card": "Amulet of Heroes"
+        },
+        {
+            "name": "Psy Boost",
+            "cost": "Auto",
+            "effect": "Psy damage +25%",
+            "target": "Self",
+            "learned_by": ["Milady (Lv. 40)", "Okuninushi (Lv. 46)"],
+            "skill_card": "Amulet of Heroes"
+        },
+        {
+            "name": "Wind Boost",
+            "cost": "Auto",
+            "effect": "Wind damage +25%",
+            "target": "Self",
+            "learned_by": ["Zorro (Lv. 43)", "Kurama Tengu (Lv. 54)"],
+            "skill_card": "Amulet of Heroes"
+        },
+
+        {
+            "name": "Null Bless",
+            "cost": "Auto",
+            "effect": "Nullifies Bless attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Painful Past"
+        },
+        {
+            "name": "Null Curse",
+            "cost": "Auto",
+            "effect": "Nullifies Curse attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Painful Past"
+        },
+        {
+            "name": "Null Elec",
+            "cost": "Auto",
+            "effect": "Nullifies Elec attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Painful Past"
+        },
+        {
+            "name": "Null Fire",
+            "cost": "Auto",
+            "effect": "Nullifies Fire attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Painful Past"
+        },
+        {
+            "name": "Null Ice",
+            "cost": "Auto",
+            "effect": "Nullifies Ice attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Painful Past"
+        },
+        {
+            "name": "Null Nuke",
+            "cost": "Auto",
+            "effect": "Nullifies Nuke attacks",
+            "target": "Self",
+            "learned_by": ["Black Frost (Lv. 76)"],
+            "skill_card": "Painful Past"
+        },
+        {
+            "name": "Null Psy",
+            "cost": "Auto",
+            "effect": "Nullifies Psy attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Painful Past"
+        },
+        {
+            "name": "Null Wind",
+            "cost": "Auto",
+            "effect": "Nullifies Wind attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Painful Past"
+        },
+        {
+            "name": "Bless Amp",
+            "cost": "Auto",
+            "effect": "Bless damage +50%",
+            "target": "Self",
+            "learned_by": ["Pithos (Lv. 46)", "Dominion (Lv. 67)"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Curse Amp",
+            "cost": "Auto",
+            "effect": "Curse damage +50%",
+            "target": "Self",
+            "learned_by": ["Nebiros (Lv. 58)"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Elec Amp",
+            "cost": "Auto",
+            "effect": "Elec damage +50%",
+            "target": "Self",
+            "learned_by": ["Thor (Lv. 62)"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Fire Amp",
+            "cost": "Auto",
+            "effect": "Fire damage +50%",
+            "target": "Self",
+            "learned_by": ["Carmen (Lv. 67)", "Cerberus (Lv. 62)"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Gun Amp",
+            "cost": "Auto",
+            "effect": "Gun damage +50%",
+            "target": "Self",
+            "learned_by": ["Milady (Lv. 67)", "Seth (Lv. 53)", "Trumpeter (Lv. 58)"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Ice Amp",
+            "cost": "Auto",
+            "effect": "Ice damage +50%",
+            "target": "Self",
+            "learned_by": ["King Frost (Lv. 68)"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Nuke Amp",
+            "cost": "Auto",
+            "effect": "Nuke damage +50%",
+            "target": "Self",
+            "learned_by": ["Johanna (Lv. 68)", "Mot (Lv. 62)"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Psy Amp",
+            "cost": "Auto",
+            "effect": "Psy damage +50%",
+            "target": "Self",
+            "learned_by": ["Forneus (Lv. 62)"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Wind Amp",
+            "cost": "Auto",
+            "effect": "Wind damage +50%",
+            "target": "Self",
+            "learned_by": ["Zorro (Lv. 65)", "Norn (Lv. 58)"],
+            "skill_card": "Treasure Risky"
+        },
+
+        {
+            "name": "Drain Bless",
+            "cost": "Auto",
+            "effect": "Drains Bless attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Painful Risky"
+        },
+        {
+            "name": "Drain Curse",
+            "cost": "Auto",
+            "effect": "Drains Curse attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Painful Risky"
+        },
+        {
+            "name": "Drain Elec",
+            "cost": "Auto",
+            "effect": "Drains Elec attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Painful Risky"
+        },
+        {
+            "name": "Drain Fire",
+            "cost": "Auto",
+            "effect": "Drains Fire attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Painful Risky"
+        },
+        {
+            "name": "Drain Ice",
+            "cost": "Auto",
+            "effect": "Drains Ice attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Painful Risky"
+        },
+        {
+            "name": "Drain Nuke",
+            "cost": "Auto",
+            "effect": "Drains Nuke attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Painful Risky"
+        },
+        {
+            "name": "Drain Psy",
+            "cost": "Auto",
+            "effect": "Drains Psy attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Painful Risky"
+        },
+        {
+            "name": "Drain Wind",
+            "cost": "Auto",
+            "effect": "Drains Wind attacks",
+            "target": "Self",
+            "learned_by": [],
+            "skill_card": "Painful Risky"
+        },
+        {
+            "name": "Attack Master",
+            "cost": "Auto",
+            "effect": "Activates Tarukaja at the start of battle",
+            "target": "Self",
+            "learned_by": ["Captain Kidd (Lv. 40)", "Valkyrie (Lv. 46)", "Hecatoncheires (Lv. 51)", "Thor (Lv. 64)"],
+            "skill_card": "Kyoto"
+        },
+        {
+            "name": "Defense Master",
+            "cost": "Auto",
+            "effect": "Activates Rakukaja at the start of battle",
+            "target": "Self",
+            "learned_by": ["Johanna (Lv. 32)", "Arahabaki (Lv. 41)", "Naga (Lv. 48)", "King Frost (Lv. 64)", "Abaddon (Lv. 67)", "Mara (Lv. 75)"],
+            "skill_card": "Kyoto"
+        },
+        {
+            "name": "Divine Grace",
+            "cost": "Auto",
+            "effect": "Recovery skill effectiveness +50%",
+            "target": "Self",
+            "learned_by": ["Pithos (Lv. 32)", "Ame-no-Uzume (Lv. 29)", "Kikuri-Hime (Lv. 44)"],
+            "skill_card": "Kyoto"
+        },
+        {
+            "name": "Regenerate 2",
+            "cost": "Auto",
+            "effect": "Gradually restores HP, minor effect; stacks with other Regenerate skills",
+            "target": "Self",
+            "learned_by": ["Unicorn (Lv. 42)", "Ganesha (Lv. 49)", "King Frost (Lv. 66)"],
+            "skill_card": "Kyoto"
+        },
+        {
+            "name": "Speed Master",
+            "cost": "Auto",
+            "effect": "Activates Sukukaja at the start of battle",
+            "target": "Self",
+            "learned_by": ["Goemon (Lv. 31)", "Neko Shogun (Lv. 42)", "Cerberus (Lv. 58)", "Cu Chulainn"],
+            "skill_card": "Kyoto"
+        },
+        {
+            "name": "Ailment Boost",
+            "cost": "Auto",
+            "effect": "Increases chance of inflicting all ailments",
+            "target": "Self",
+            "learned_by": ["Milady (Lv. 60)", "Black Ooze (Lv. 38)", "Black Frost (Lv. 70)"],
+            "skill_card": "Osaka"
+        },
+        {
+            "name": "Endure",
+            "cost": "Auto",
+            "effect": "Survive lethal attack with 1 HP once per battle",
+            "target": "Self",
+            "learned_by": ["Hecatoncheires (Lv. 48)", "Ganesha (Lv. 51)"],
+            "skill_card": "Abyss"
+        },
+        {
+            "name": "Regenerate 3",
+            "cost": "Auto",
+            "effect": "Gradually restores HP; stacks with other Regenerate skills",
+            "target": "Self",
+            "learned_by": ["Cu Chulainn (Lv. 65)"],
+            "skill_card": "Abyss"
+        },
+        {
+            "name": "Rebel Soul",
+            "cost": "Auto",
+            "effect": "Showtime Gauge increases more quickly",
+            "target": "Self",
+            "learned_by": ["Arsene (Lv. 10)", "Captain Kidd (Lv. 20)", "Pithos (Lv. 52)", "Yoshitsune (Lv. 81)", "Lucifer"],
+            "skill_card": "Request"
+        },
+        {
+            "name": "Soul Thief",
+            "cost": "Auto",
+            "effect": "Drains SP when inflicting an ailment on a foe",
+            "target": "Self",
+            "learned_by": ["Jack-o'-Lantern (Lv. 5)", "Carmen (Lv. 10)", "Hua Po (Lv. 18)", "Lilim (Lv. 29)", "Lilith (Lv. 59)", "Black Frost (Lv. 68)"],
+            "skill_card": "Request"
+        },
+        {
+            "name": "Enduring Soul",
+            "cost": "Auto",
+            "effect": "Survive lethal attack with full HP once per battle",
+            "target": "Self",
+            "learned_by": ["Valjean (Lv. 49)", "Cerberus (Lv. 59)", "Siegfried (Lv. 73)"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Firm Stance",
+            "cost": "Auto",
+            "effect": "Halves all damage received by sacrificing evasion",
+            "target": "Self",
+            "learned_by": ["Valjean (Lv. 72)", "Mara (Lv. 80)"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Survival Trick",
+            "cost": "Auto",
+            "effect": "Survive all instant death attacks with 1 HP",
+            "target": "Self",
+            "learned_by": ["Arsene (Lv. 84)", "Abaddon (Lv. 69)", "Alice (Lv. 78)"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Angelic Grace",
+            "cost": "Auto",
+            "effect": "Double evasion against non-Almighty magic attacks",
+            "target": "Self",
+            "learned_by": ["Pithos (Lv. 70)", "Metatron (Lv. 90)"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Fortify Spirit",
+            "cost": "Auto",
+            "effect": "Reduces chance of receiving all ailments",
+            "target": "Self",
+            "learned_by": ["Seth (Lv. 61)", "Trumpeter"],
+            "skill_card": "Treasure Risky"
+        },
+        {
+            "name": "Spell Master",
+            "cost": "Auto",
+            "effect": "Halves SP costs for skills",
+            "target": "Self",
+            "learned_by": ["Alice (Lv. 90)"],
+            "skill_card": "Treasure Risky"
+        }
+    ]
+}
