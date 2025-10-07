@@ -565,7 +565,7 @@
             "skill_card": "Treasure Risky"
         }
     ],
-    "psy": [{
+    "psychic": [{
             "name": "Psi",
             "cost": "8 MP",
             "effect": "Light damage",

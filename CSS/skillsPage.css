@@ -1,0 +1,93 @@
+/* General Persona 5 vibe */
+body {
+  background: #111;
+  color: #fff;
+  font-family: "Arial Black", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Layout: mobile first, stack */
+#skills-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/* Tablet/Desktop: 2 per row */
+@media (min-width: 768px) {
+  #skills-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Section wrapper */
+.skill-section {
+  background: #1a1a1a;
+  border: 2px solid #ff0033;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(255, 0, 51, 0.5);
+}
+
+/* Toggle button */
+.skill-toggle {
+  background: #ff0033;
+  color: white;
+  width: 100%;
+  text-align: left;
+  padding: 0.8rem 1rem;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+}
+
+.skill-toggle:hover {
+  background: #cc0029;
+}
+
+/* Table styling */
+.skill-content {
+  max-height: 1000px; /* expanded by default */
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.skill-content.collapsed {
+  max-height: 0;
+}
+
+.skill-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.skill-table th,
+.skill-table td {
+  border: 1px solid #ff0033;
+  padding: 0.5rem;
+}
+
+.skill-table th {
+  background: #ff0033;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.skill-table tr:nth-child(even) {
+  background: #222;
+}
+
+.skill-table tr:nth-child(odd) {
+  background: #111;
+}
+
+/* Symbol cell */
+.skill-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
