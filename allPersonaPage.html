@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8" />
@@ -12,40 +12,76 @@
 <body>
 
     <div id="navbar"></div>
-    
+
     <main>
         <section class="search-section">
             <input type="text" id="searchBar" placeholder="Zoek een Persona..." />
-            <button id="filterToggle">Filters</button>
+            <div class="search-controls">
+                <button id="filterToggle">Filters</button>
+                <button id="resetFilters">Reset</button>
+            </div>
+            <div id="resultsCount">Totaal persona's: <span id="countNumber">0</span></div>
         </section>
 
         <section id="filterOptions" class="hidden">
-            <select id="sortName">
-                <option value="asc">Naam A-Z</option>
-                <option value="desc">Naam Z-A</option>
-            </select>
+            <div class="filter-row">
+                <label>Sorteren op naam:
+                    <select id="sortName">
+                        <option value="none">Geen</option>
+                        <option value="asc">Naam A-Z</option>
+                        <option value="desc">Naam Z-A</option>
+                    </select>
+                </label>
 
-            <select id="sortLevel">
-                <option value="asc">Level ↑</option>
-                <option value="desc">Level ↓</option>
-            </select>
+                <label>Sorteren op level:
+                    <select id="sortLevel">
+                        <option value="none">Geen</option>
+                        <option value="asc">Level ↑</option>
+                        <option value="desc">Level ↓</option>
+                    </select>
+                </label>
+            </div>
 
-            <select id="elementResistance">
-                <option value="all">All</option>
-                <option value="weak">Weak</option>
-                <option value="resist">Resist</option>
-                <option value="null">Null</option>
-                <option value="drain">Drain</option>
-                <option value="repel">Repel</option>
-            </select>
+            <div class="filter-row">
+                <label>Resistance:
+                    <select id="resistanceType">
+                        <option value="">-- Kies type --</option>
+                        <option value="weak">Weak</option>
+                        <option value="resist">Resist</option>
+                        <option value="null">Null</option>
+                        <option value="drain">Drain</option>
+                        <option value="repel">Repel</option>
+                        <option value="absorb">Absorb</option>
+                    </select>
+                </label>
+
+                <label>Element:
+                    <select id="elementType">
+                        <option value="">-- Kies element --</option>
+                        <option value="physical">physical</option>
+                        <option value="gun">gun</option>
+                        <option value="fire">fire</option>
+                        <option value="ice">ice</option>
+                        <option value="electric">electric</option>
+                        <option value="wind">wind</option>
+                        <option value="psychic">psychic</option>
+                        <option value="nuclear">nuclear</option>
+                        <option value="bless">bless</option>
+                        <option value="curse">curse</option>
+                    </select>
+                </label>
+
+                <button id="applyFilters">Zoek</button>
+            </div>
 
             <fieldset id="arcanaFilter">
                 <legend>Arcana</legend>
             </fieldset>
+
         </section>
 
-        <section id="personaList">
-        </section>
+        <section id="personaList" aria-live="polite"></section>
+
     </main>
 
     <div id="footer"></div>

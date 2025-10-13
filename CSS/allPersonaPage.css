@@ -1,108 +1,219 @@
 body {
-  font-family: 'Futura', sans-serif;
-  background-color: #1c1c1c;
-  color: #fff;
-  margin: 0;
-  padding: 0;
+    font-family: 'Futura', sans-serif;
+    background-color: #1c1c1c;
+    color: #fff;
+    margin: 0;
+    padding: 0;
 }
 
 .search-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
 }
 
 #searchBar {
-  background-color: #111;
-  color: #fff;
-  border: 2px solid #e60012;
-  border-radius: 5px;
+    background-color: #111;
+    color: #fff;
+    border: 2px solid #e60012;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 250px;
+    text-align: center;
+}
+
+.search-controls button,
+#filterToggle,
+#applyFilters,
+#resetFilters {
+    padding: 0.5rem 1rem;
+    background-color: #e60012;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.1s;
+    box-shadow: 0 4px 0 #99000c;
+    text-transform: uppercase;
 }
 
 #filterToggle {
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  background-color: #e60012;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background 0.3s;
+    margin-top: 1rem;
 }
+
+.search-controls {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.search-controls button:active,
+#filterToggle:active,
+#applyFilters:active,
+#resetFilters:active {
+    transform: translateY(4px);
+    box-shadow: 0 0 0 #99000c;
+}
+
+#applyFilters:hover,
+#resetFilters:hover,
 #filterToggle:hover {
-  background-color: #ff1a1a;
+    background-color: #ff1a1a;
+}
+
+#filterOptions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: flex-end;
 }
 
 #filterOptions select {
-  padding: 0.5rem;
-  background-color: #111;
-  color: #fff;
-  border: 2px solid #e60012;
-  border-radius: 5px;
+    padding: 0.5rem;
+    background-color: #111;
+    color: #fff;
+    border: 2px solid #e60012;
+    border-radius: 5px;
+    min-width: 150px;
 }
 
 #arcanaFilter {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  gap: 0.5rem;
-  background-color: #1c1c1c;
-  padding: 1rem;
-  border: 2px solid #e60012;
-  border-radius: 8px;
-  color: white;
-}
-#arcanaFilter label {
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
-  font-size: 0.9rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0.5rem;
+    background-color: #1c1c1c;
+    padding: 1rem;
+    border: 2px solid #e60012;
+    border-radius: 8px;
+    color: white;
+    max-height: 150px;
+    overflow-y: auto;
+    min-width: 100%;
 }
 
+#arcanaFilter legend {
+    font-weight: bold;
+    color: #ff4040;
+}
+
+#arcanaFilter label {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.9rem;
+}
+
+
 #personaList {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 1rem;
 }
 
 .persona-card {
-  display: flex;
-  justify-content: space-between;
-  border: 2px solid #e60012;
-  padding: 1rem;
-  background-color: #2c2c2c;
-  border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #e60012;
+    padding: 1rem;
+    background-color: #2c2c2c;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .persona-card:hover {
-  transform: scale(1.02);
-  transition: transform 0.2s ease;
+    transform: scale(1.03);
+    box-shadow: 0 0 10px #e60012;
 }
 
-.persona-card .left,
-.persona-card .right {
-  width: 45%;
+.persona-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    background-color: #111;
+    border-radius: 8px;
+    margin-bottom: 0.8rem;
+    border: 1px solid #e60012;
+}
+
+.persona-card .info {
+    text-align: center;
+}
+
+.persona-card .name {
+    font-weight: bold;
+    color: #ff4040;
+    margin-bottom: 0.3rem;
+}
+
+.persona-card .meta {
+    font-size: 0.9rem;
+    color: #ddd;
+}
+
+#resultsCount {
+text-align: center;
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+#countNumber {
+    font-weight: bold;
+    color: #ff4040;
+}
+
+.hidden {
+    display: none !important;
+}
+
+@media (max-width: 1100px) {
+    #personaList {
+        grid-template-columns: repeat(3, 1fr);
+}
+    #arcanaFilter {
+        grid-template-columns: repeat(4, 1fr);
+}
 }
 
 @media (max-width: 768px) {
-  .search-section {
-    flex-direction: column;
-  }
+    #personaList {
+    grid-template-columns: repeat(2, 1fr);
+}
 
-  #arcanaFilter {
+    #arcanaFilter {
     grid-template-columns: repeat(3, 1fr);
-  }
+}
 
-  .persona-card {
-    flex-direction: column;
-    align-items: center;
-  }
+    .persona-card img {
+    width: 100px;
+    height: 100px;
+}}
 
-  .persona-card .left,
-  .persona-card .right {
-    width: 100%;
-    text-align: center;
-  }
+@media (max-width: 500px) {
+    #personaList {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #arcanaFilter {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .filter-row {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    #filterOptions select {
+        width: 100%;
+    }
 }

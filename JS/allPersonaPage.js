@@ -1,173 +1,183 @@
-// function loadHTML(id, file) {
-//     fetch(file)
-//         .then(response => response.text())
-//         .then(data => {
-//             document.getElementById(id).innerHTML = data;
-
-//             if (id === "navbar") {
-//                 document.addEventListener("click", (e) => {
-//                     const toggleBtn = document.querySelector(".menu-toggle");
-//                     const navLinks = document.querySelector(".navbar-links");
-//                     if (toggleBtn && navLinks && e.target === toggleBtn) {
-//                         navLinks.classList.toggle("show");
-//                     }
-//                 });
-//             }
-//         });
-// }
-
 document.addEventListener("DOMContentLoaded", () => {
-    // loadHTML("navbar", "navbar.html");
-    // loadHTML("footer", "footer.html");
-
-    // const filterToggle = document.getElementById("filterToggle");
-    // const filterOptions = document.getElementById("filterOptions");
-    // if (filterToggle && filterOptions) {
-    //     filterToggle.addEventListener("click", () => {
-    //         filterOptions.classList.toggle("hidden");
-    //     });
-    // }
-
     const arcanaTypes = [
-         "Chariot", "Death", "Devil", "Emperor", "Empress", "Fool", 
-         "Fortune", "Hanged Man", "Hermit", "Hierophant", "Judgment", "Justice", 
-         "Lovers", "Magician", "Moon", "Priestess", "Star", "Strength",
-         "Sun", "Temperance", "Tower", 
+        "Fool", "Magician", "Priestess", "Empress", "Emperor", "Hierophant",
+        "Lovers", "Chariot", "Justice", "Hermit", "Fortune", "Strength",
+        "Hanged Man", "Death", "Temperance", "Devil", "Tower", "Star",
+        "Moon", "Sun", "Judgment"
     ];
 
+    const filterOptions = document.getElementById('filterOptions');
     const arcanaFilter = document.getElementById("arcanaFilter");
-    const arcanaToggleBtn = document.createElement("button");
-    arcanaToggleBtn.textContent = "Selecteer/Deselecteer Alles";
-    arcanaToggleBtn.style.marginBottom = "1rem";
-    arcanaFilter.parentElement.insertBefore(arcanaToggleBtn, arcanaFilter);
 
-    let arcanaCheckboxes = [];
+    let renderArcanaCheckboxes = [];
 
     arcanaTypes.forEach(type => {
         const label = document.createElement("label");
         label.innerHTML = `<input type="checkbox" value="${type}" checked /> ${type}`;
         arcanaFilter.appendChild(label);
-        arcanaCheckboxes.push(label.querySelector("input"));
+        renderArcanaCheckboxes.push(label.querySelector("input"));
     });
 
-    arcanaToggleBtn.addEventListener("click", () => {
-        const allChecked = arcanaCheckboxes.every(cb => cb.checked);
-        arcanaCheckboxes.forEach(cb => cb.checked = !allChecked);
-        applyFilters();
-    });
+    const elementSelect = document.getElementById('elementType');
+    const resistanceTypeSelect = document.getElementById('resistanceType');
+    const applyBtn = document.getElementById('applyFilters');
+    const resetBtn = document.getElementById('resetFilters');
+    const filterToggle = document.getElementById('filterToggle');
+    const searchBar = document.getElementById('searchBar');
+    const personaListEl = document.getElementById('personaList');
+    const countNumber = document.getElementById('countNumber');
+    const sortNameSelect = document.getElementById('sortName');
+    const sortLevelSelect = document.getElementById('sortLevel');
 
-    // Element filtering setup
-    const elementSelect = document.createElement("select");
-    elementSelect.id = "elementType";
-    elementSelect.innerHTML = `
-        <option value="">Element (All)</option>
-        <option value="fire">Fire</option>
-        <option value="ice">Ice</option>
-        <option value="wind">Wind</option>
-        <option value="electric">Electric</option>
-        <option value="bless">Bless</option>
-        <option value="curse">Curse</option>
-        <!-- Voeg hier meer elementen toe indien nodig -->
-    `;
-    const resistanceTypeSelect = document.createElement("select");
-    resistanceTypeSelect.id = "resistanceType";
-    resistanceTypeSelect.innerHTML = `
-        <option value="">Type (All)</option>
-        <option value="weak">Weak</option>
-        <option value="resist">Resist</option>
-        <option value="null">Null</option>
-        <option value="absorb">Absorb</option>
-        <option value="repel">Repel</option>
-    `;
-    filterOptions.appendChild(elementSelect);
-    filterOptions.appendChild(resistanceTypeSelect);
 
     let allPersonas = [];
 
     function renderPersonas(personas) {
-        const container = document.getElementById("personaList");
-        container.innerHTML = "";
+        const personaListEl = document.getElementById('personaList');
+        const countNumber = document.getElementById('countNumber');
+
+        personaListEl.innerHTML = '';
+
+        if (!personas || personas.length === 0) {
+            personaListEl.innerHTML = '<div class="no-results">Geen persona\'s gevonden.</div>';
+            countNumber.textContent = '0';
+            return;
+        }
+
+        countNumber.textContent = String(personas.length);
 
         personas.forEach(p => {
-            const card = document.createElement("div");
-            card.classList.add("persona-card");
+            const card = document.createElement('div');
+            card.classList.add('persona-card');
 
-            const left = document.createElement("div");
-            left.classList.add("left");
-            left.textContent = `Arcana: ${p.arcana}`;
+            const img = document.createElement('img');
 
-            const right = document.createElement("div");
-            right.classList.add("right");
-            right.textContent = `Name: ${p.name}`;
+            let imagePath = p.image || p.img || p.icon || '';
 
-            card.appendChild(left);
-            card.appendChild(right);
-            container.appendChild(card);
+            if (!imagePath || imagePath.startsWith('http')) {} else {
+                if (imagePath.startsWith('./')) {
+                    imagePath = imagePath.substring(2);
+                }
+            }
+
+            const finalImagePath = imagePath || `MEDIA/placeholderPersona.png`;
+            img.src = finalImagePath;
+            img.alt = p.name || 'persona image';
+
+            img.onerror = () => {
+                img.src = `MEDIA/placeholderPersona.png`;
+            };
+
+            const info = document.createElement('div');
+            info.classList.add('info');
+
+            const nameEl = document.createElement('div');
+            nameEl.classList.add('name');
+            nameEl.textContent = p.name || 'Unknown';
+
+            const metaEl = document.createElement('div');
+            metaEl.classList.add('meta');
+            metaEl.textContent = `Arcana: ${p.arcana || '—'} • Level: ${p.level ?? '—'} `;
+
+            info.appendChild(nameEl);
+            info.appendChild(metaEl);
+
+            card.appendChild(img);
+            card.appendChild(info);
+
+            card.addEventListener('click', () => {
+                const goToPersona = encodeURIComponent(p.name || '');
+                window.location.href = `personaSpecific.html?name=${goToPersona}`;
+            });
+
+            personaListEl.appendChild(card);
         });
     }
 
     function applyFilters() {
         let filtered = [...allPersonas];
 
-        const searchTerm = document.getElementById("searchBar").value.toLowerCase();
+        const searchTerm = searchBar.value.trim().toLowerCase();
         if (searchTerm) {
-            filtered = filtered.filter(p => p.name.toLowerCase().includes(searchTerm));
+            filtered = filtered.filter(p => (p.name || '').toLowerCase().includes(searchTerm));
         }
 
-        const nameSort = document.getElementById("sortName").value;
-        if (nameSort === "asc") {
-            filtered.sort((a, b) => a.name.localeCompare(b.name));
-        } else {
-            filtered.sort((a, b) => b.name.localeCompare(a.name));
-        }
-
-        const levelSort = document.getElementById("sortLevel").value;
-        if (levelSort === "asc") {
-            filtered.sort((a, b) => a.level - b.level);
-        } else {
-            filtered.sort((a, b) => b.level - a.level);
-        }
-
-        // ID sort (optioneel: voeg aparte dropdown toe als je dit wilt scheiden)
-        // filtered.sort((a, b) => a.id - b.id); // of b.id - a.id
-
-        const selectedArcana = arcanaCheckboxes.filter(cb => cb.checked).map(cb => cb.value);
-        if (selectedArcana.length > 0) {
+        const selectedArcana = renderArcanaCheckboxes.filter(cb => cb.checked).map(cb => cb.value);
+        if (selectedArcana.length > 0 && selectedArcana.length < renderArcanaCheckboxes.length) {
             filtered = filtered.filter(p => selectedArcana.includes(p.arcana));
-            filtered.sort((a, b) => a.arcana.localeCompare(b.arcana));
         }
 
-        const selectedElement = elementSelect.value;
-        const selectedType = resistanceTypeSelect.value;
-        if (selectedElement && selectedType) {
+        const selectResistance = resistanceTypeSelect.value;
+        const selectElement = elementSelect.value;
+
+        if (selectResistance && selectElement) {
             filtered = filtered.filter(p => {
-                const resistObj = p.elementResistances ?. [selectedType];
-                return resistObj ?.element ?.includes(selectedElement);
+                const resistObj = p.elementResistances || p.resistances || p.elementResistance;
+
+                if (!resistObj || !resistObj[selectResistance]) return false;
+
+                const arr = resistObj[selectResistance];
+                return Array.isArray(arr) && arr.map(x => String(x).toLowerCase()).includes(selectElement.toLowerCase());
             });
+        }
+
+        const nameSort = sortNameSelect.value;
+        const levelSort = sortLevelSelect.value;
+
+        if (levelSort && levelSort !== 'none') {
+            filtered.sort((a, b) => (Number(a.level) || 0) - (Number(b.level) || 0));
+            if (levelSort === 'desc') filtered.reverse();
+        }
+
+        if (nameSort && nameSort !== 'none') {
+            filtered.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
+            if (nameSort === 'desc') filtered.reverse();
         }
 
         renderPersonas(filtered);
     }
 
+    function resetFilters() {
+        searchBar.value = '';
+        sortNameSelect.value = 'none';
+        sortLevelSelect.value = 'none';
+        resistanceTypeSelect.value = '';
+        elementSelect.value = '';
+        renderArcanaCheckboxes.forEach(cb => cb.checked = true);
+        renderPersonas(allPersonas);
+    }
+
+    filterToggle.addEventListener('click', () => {
+        filterOptions.classList.toggle('hidden');
+    });
+
+    applyBtn.addEventListener('click', applyFilters);
+    resetBtn.addEventListener('click', resetFilters);
+    searchBar.addEventListener('input', applyFilters);
+    // sortNameSelect hoort direct te filteren maar de filters moeten nog wat getuned worden
+    sortNameSelect.addEventListener('change', applyFilters);
+    sortLevelSelect.addEventListener('change', applyFilters);
+    renderArcanaCheckboxes.forEach(cb => cb.addEventListener('change', applyFilters));
+
+    // Alleen filteren als Resistance en Element allebei zijn geselecteerd
+    resistanceTypeSelect.addEventListener('change', () => {
+        if (elementSelect.value) applyFilters();
+    });
+    elementSelect.addEventListener('change', () => {
+        if (resistanceTypeSelect.value) applyFilters();
+    });
+
     fetch('P5Strikers.json')
         .then(response => {
-            if (!response.ok) {
-                throw new Error("Netwerkfout bij het ophalen van JSON");
-            }
+            if (!response.ok) throw new Error('Netwerkfout bij het ophalen van JSON');
             return response.json();
         })
         .then(data => {
-            allPersonas = data;
+            allPersonas = Array.isArray(data) ? data : (data.personas || []);
             renderPersonas(allPersonas);
         })
-        .catch(error => {
-            console.error("Fout bij het laden van JSON:", error);
+        .catch(err => {
+            console.error('Fout bij het laden van JSON:', err);
+            personaListEl.innerHTML = '<div class="no-results">Kon persona JSON niet laden.</div>';
         });
-
-    document.getElementById("searchBar").addEventListener("input", applyFilters);
-    document.getElementById("sortName").addEventListener("change", applyFilters);
-    document.getElementById("sortLevel").addEventListener("change", applyFilters);
-    elementSelect.addEventListener("change", applyFilters);
-    resistanceTypeSelect.addEventListener("change", applyFilters);
-    arcanaCheckboxes.forEach(cb => cb.addEventListener("change", applyFilters));
 });
