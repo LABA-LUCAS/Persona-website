@@ -35,7 +35,7 @@
                 "name": "Rebel Soul",
                 "level": 10
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Eiha",
                     "input": "□□□△"
                 },
@@ -75,7 +75,7 @@
             "learned": [{
                 "name": ["Burn Boost", "Soul Thief"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Agi",
                     "input": "□□□△"
                 },
@@ -115,7 +115,7 @@
             "learned": [{
                 "name": ["Null Sleep", "Mazio"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Dia",
                     "input": "□□△△"
                 },
@@ -159,7 +159,7 @@
             "learned": [{
                 "name": ["Sleep Boost", "Mabufu", "Dekaja"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Dormina",
                     "input": "□□△△"
                 },
@@ -203,7 +203,7 @@
             "learned": [{
                 "name": ["Rampage", "Null Dizzy"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                 "name": "Garu",
                 "input": "□□□△"
             }, {
@@ -241,7 +241,7 @@
             "learned": [{
                 "name": ["Dekunda", "Null Rage"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                 "name": "Tarukaja",
                 "input": "□□□△"
             }, {
@@ -282,7 +282,7 @@
             "learned": [{
                 "name": ["Sukunda", "Dodge Phys"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Mabufu",
                     "input": "□□□△"
                 },
@@ -325,7 +325,7 @@
             "learned": [{
                 "name": ["Null Brainwash", "Snap"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Marin Karin",
                     "input": "□□△△"
                 },
@@ -369,7 +369,7 @@
             "learned": [{
                 "name": ["Maeiha", "Rage Boost"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Evil Touch",
                     "input": "□□△△"
                 },
@@ -413,7 +413,7 @@
             "learned": [{
                 "name": ["Amrita Drop", "Null Forget", "Soul Thief"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Tarunda",
                     "input": "□□△△"
                 },
@@ -460,7 +460,7 @@
             "learned": [{
                 "name": ["Null Fear", "Dodge Fire"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                 "name": "Double Fangs",
                 "input": "□□△△"
             }]
@@ -495,7 +495,7 @@
             "learned": [{
                 "name": ["Media", "Garula", "Recarm"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Makajam",
                     "input": "□□△△"
                 },
@@ -542,7 +542,7 @@
             "learned": [{
                 "name": ["Tetraja", "Brainwash Boost"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Agilao",
                     "input": "□□□△"
                 },
@@ -582,7 +582,7 @@
             "learned": [{
                 "name": ["Dazzler", "Giant Slice", "Hama"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Giant Slice",
                     "input": "□□△"
                 },
@@ -629,7 +629,7 @@
             "learned": [{
                 "name": ["Dodge Ice", "Freila"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Double Fangs",
                     "input": "□□△△"
                 },
@@ -676,7 +676,7 @@
             "learned": [{
                 "name": ["Dream Needle", "Mamudo"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Mudo",
                     "input": "□□△△"
                 },
@@ -720,7 +720,7 @@
             "learned": [{
                 "name": ["Diarama", "Media", "Divine Grace"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Bufula",
                     "input": "□□□△"
                 },
@@ -764,7 +764,7 @@
             "learned": [{
                 "name": ["Freeze Boost", "Ice Boost", "Mabufula"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Bufula",
                     "input": "□□□△"
                 },
@@ -811,7 +811,7 @@
             "learned": [{
                 "name": ["Null Forget", "Soul Thief", "Dekaja"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Evil Smile",
                     "input": "□□△△"
                 },
@@ -855,7 +855,7 @@
             "learned": [{
                 "name": ["Sleep Boost", "Regenerate 1"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Giant Slice",
                     "input": "□□△△"
                 },
@@ -902,7 +902,7 @@
             "learned": [{
                 "name": ["Recarm", "Forget Boost"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Makajam",
                     "input": "□□△△"
                 },
@@ -949,7 +949,7 @@
             "learned": [{
                 "name": ["Dizzy Boost", "Megido"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Mazionga",
                     "input": "□□□△"
                 },
@@ -992,7 +992,7 @@
             "learned": [{
                 "name": ["Dodge Nuke", "Technical Adept"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Mapsio",
                     "input": "□□□△"
                 },
@@ -1032,7 +1032,7 @@
             "learned": [{
                 "name": ["Rakunda", "Swift Strike"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Lunge",
                     "input": "□□△△"
                 },
@@ -1076,7 +1076,7 @@
             "learned": [{
                 "name": ["Makouga", "Maeiga"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Vajra Blast",
                     "input": "□□△△"
                 },
@@ -1123,7 +1123,7 @@
             "learned": [{
                 "name": ["Eiga", "Ailment Boost"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Headbutt",
                     "input": "□□△△"
                 },
@@ -1170,7 +1170,7 @@
             "learned": [{
                 "name": ["Rampage", "Brainwash Boost"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Rampage",
                     "input": "□□△△"
                 },
@@ -1217,7 +1217,7 @@
             "learned": [{
                 "name": ["Dodge Curse", "Technical High"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Zionga",
                     "input": "□□□△"
                 },
@@ -1260,7 +1260,7 @@
             "learned": [{
                 "name": ["Curse Boost", "Defense Master"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Assault Dive",
                     "input": "□□□△"
                 },
@@ -1307,7 +1307,7 @@
             "learned": [{
                 "name": ["Dodge Wind", "Heat Wave", "Speed Master"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Sukukaja",
                     "input": "□□△△"
                 },
@@ -1354,7 +1354,7 @@
             "learned": [{
                 "name": ["Recarm", "Regenerate 2"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Assault Dive",
                     "input": "□□△△"
                 },
@@ -1398,7 +1398,7 @@
             "learned": [{
                 "name": ["Taunt", "Gun Boost"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Magarula",
                     "input": "□□□△"
                 },
@@ -1442,7 +1442,7 @@
                 "name": "Mediarama",
                 "level": 42
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Diarama",
                     "input": "□□□□□△△"
                 },
@@ -1489,7 +1489,7 @@
             "learned": [{
                 "name": ["Nuke Boost", "Freidyne"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Vicious Strike",
                     "input": "□□△△"
                 },
@@ -1536,7 +1536,7 @@
             "learned": [{
                 "name": ["Psio Boost", "Psiodyne"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Psio",
                     "input": "□□□△"
                 },
@@ -1579,7 +1579,7 @@
             "learned": [{
                 "name": ["Agidyne", "Bufudyne"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Maragion",
                     "input": "□□□□□△△"
                 },
@@ -1626,7 +1626,7 @@
             "learned": [{
                 "name": ["Shock Boost", "Defense Master"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Rakukaja",
                     "input": "□□△△"
                 },
@@ -1676,7 +1676,7 @@
             "learned": [{
                 "name": ["Attack Master", "Oni Kagura", "Deathbound"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Bloodbath",
                     "input": "□□□△"
                 },
@@ -1719,7 +1719,7 @@
             "learned": [{
                 "name": ["Endure", "Triple Down", "Attack Master"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Lunge",
                     "input": "□□△△"
                 },
@@ -1769,7 +1769,7 @@
             "learned": [{
                 "name": ["Regenerate 2", "Endure", "Atomic Flare"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Vajra Blast",
                     "input": "□□△△"
                 },
@@ -1816,7 +1816,7 @@
             "learned": [{
                 "name": ["Amrita Shower", "Dekunda", "Diarahan"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Dekaja",
                     "input": "□□△△"
                 },
@@ -1863,7 +1863,7 @@
             "learned": [{
                 "name": ["Amrita Drop", "Evade Electricity", "Vacuum Wave"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Garudyne",
                     "input": "□□□△"
                 },
@@ -1906,7 +1906,7 @@
             "learned": [{
                 "name": ["Maziodyne", "Evade Wind", "Thunder Reign"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Masukukaja",
                     "input": "□□△△"
                 },
@@ -1956,7 +1956,7 @@
             "learned": [{
                 "name": ["Gun Amp", "Knockdown Style", "Fortify Spirit", "Riot Gun"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Masukukaja",
                     "input": "□□△△"
                 },
@@ -2003,7 +2003,7 @@
             "learned": [{
                 "name": ["Wind Boost", "Marakunda"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Heat Wave",
                     "input": "□□△△"
                 },
@@ -2050,7 +2050,7 @@
             "learned": [{
                 "name": ["Fear Boost", "Dodge Phys"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Masukunda",
                     "input": "□□△△"
                 },
@@ -2100,7 +2100,7 @@
             "learned": [{
                 "name": ["Diarahan", "Samarecarm", "Wind Amp", "Panta Rhei"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Vicious Strike",
                     "input": "□□□△"
                 },
@@ -2144,7 +2144,7 @@
             "learned": [{
                 "name": ["Brain Jack", "Soul Thief"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Mabufudyne",
                     "input": "□□□△"
                 },
@@ -2187,7 +2187,7 @@
             "learned": [{
                 "name": ["Curse Amp", "Debilitate"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Eigaon",
                     "input": "□□□△"
                 },
@@ -2233,7 +2233,7 @@
             "learned": [{
                 "name": ["Gun Amp", "Triple Down"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Nocturnal Flash",
                     "input": "□□△△"
                 },
@@ -2280,7 +2280,7 @@
             "learned": [{
                 "name": ["Speed Master", "Enduring Soul", "Fire Amp", "Inferno"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Assault Dive",
                     "input": "□□△△"
                 },
@@ -2330,7 +2330,7 @@
             "learned": [{
                 "name": ["Concentrate", "Nuke Amp", "Cosmic Flare"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Marakukaja",
                     "input": "□□△△"
                 },
@@ -2377,7 +2377,7 @@
             "learned": [{
                 "name": ["Maziodyne", "Knockdown Style"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Sukukaja",
                     "input": "□□△△"
                 },
@@ -2427,7 +2427,7 @@
             "learned": [{
                 "name": ["Rage Boost", "Matarukaja", "Regenerate 3"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Dormin Rush",
                     "input": "□□△△"
                 },
@@ -2474,7 +2474,7 @@
             "learned": [{
                 "name": ["Psy Amp", "Technical Adept", "Psycho Blast"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Mapsiodyne",
                     "input": "□□□△"
                 },
@@ -2517,7 +2517,7 @@
             "learned": [{
                 "name": ["Electricity Amp", "Attack Master", "Wild Thunder"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Tarukaja",
                     "input": "□□△△"
                 },
@@ -2567,7 +2567,7 @@
             "learned": [{
                 "name": ["Hama Boost", "Mahamaon", "Bless Amp"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Hamaon",
                     "input": "□□△△"
                 },
@@ -2614,7 +2614,7 @@
             "learned": [{
                 "name": ["Defense Master", "Regenerate 2", "Ice Amp", "Ice Age"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Marakunda",
                     "input": "□□△△"
                 }, {
@@ -2660,7 +2660,7 @@
             "learned": [{
                 "name": ["Myriad Slashes", "Evade Ice", "Mapsiodyne", "Psycho Force"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Oni Kagura",
                     "input": "□□△△"
                 },
@@ -2710,7 +2710,7 @@
             "learned": [{
                 "name": ["Defense Master", "Survival Trick", "Agneyastra"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Brain Buster",
                     "input": "□□△△"
                 },
@@ -2760,7 +2760,7 @@
             "learned": [{
                 "name": ["Soul Thief", "Ailment Boost", "Diamond Dust", "Null Nuke"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Evil Smile",
                     "input": "□□△△"
                 },
@@ -2807,7 +2807,7 @@
             "learned": [{
                 "name": ["Vorpal Blade", "Enduring Soul", "Technical High", "God's Hand"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Vorpal Blade",
                     "input": "□□△△"
                 },
@@ -2857,7 +2857,7 @@
             "learned": [{
                 "name": ["Defense Master", "God's Hand", "Firm Stance"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "One-shot-Kill",
                     "input": "□□△△"
                 },
@@ -2904,7 +2904,7 @@
             "learned": [{
                 "name": ["Survival Trick", "Mudo Boost", "Die For Me!", "Spell Master"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Concentrate",
                     "input": "□□△△"
                 },
@@ -2948,7 +2948,7 @@
             "learned": [{
                 "name": ["Rebel Soul", "Masukukaja", "Knockdown Style", "Hassou Tobi"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Tempest Slash",
                     "input": "□□△△"
                 },
@@ -2995,7 +2995,7 @@
             "learned": [{
                 "name": ["Charge", "Salvation", "Angelic grace"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Sword Dance",
                     "input": "□□△△"
                 },
@@ -3045,7 +3045,7 @@
             "learned": [{
                 "name": ["Concentrate", "Morning Star", "Heat Riser", "Shadow of Grief"]
             }],
-            "combo_skills": [{
+            "comboSkills": [{
                     "name": "Gigantomachia",
                     "input": "□□△△"
                 },
