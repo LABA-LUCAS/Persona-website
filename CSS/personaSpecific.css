@@ -1,0 +1,158 @@
+body {
+    background: radial-gradient(circle at center, #0a0a0a 40%, #1a001f 100%);
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+main {
+    perspective: 1200px;
+}
+
+.card {
+    width: 480px;
+    height: 700px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.9s cubic-bezier(0.4, 0.2, 0.2, 1);
+    box-shadow: 0 0 25px rgba(255, 0, 170, 0.6);
+    border-radius: 20px;
+}
+
+.card.flipped {
+    transform: rotateY(180deg);
+}
+
+.frontContainer,
+.backContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.2em;
+    box-sizing: border-box;
+}
+
+/* FRONT */
+.frontContainer {
+    background: linear-gradient(145deg, #000000, #300030);
+    border: 2px solid #ff0055;
+}
+
+.frontTopCardContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.frontTopRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.frontTopRow h2 {
+    color: #ff4ef0;
+    text-shadow: 0 0 8px #ff00cc;
+    margin: 0;
+}
+
+.frontTopRow p {
+    margin: 0;
+    white-space: nowrap;
+}
+
+.frontTopRow.details-row {
+    font-size: 0.9em;
+    color: #cccccc;
+    padding-top: 0.5em;
+}
+
+.persona-id {
+    color: #ff66cc;
+    font-weight: bold;
+}
+
+.frontMiddleCardContainer1 {
+    flex-grow: 1; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    max-height: 40%;
+    margin: 0.5em 0; 
+}
+
+.personaImage {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; 
+    filter: drop-shadow(0 0 10px rgba(255, 0, 150, 0.7));
+}
+
+.frontMiddleCardContainer2 {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 0.8em;
+}
+
+.frontBottomCardContainer {
+    font-weight: bold;
+    color: #ff66cc;
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+/* BACK */
+.backContainer {
+    background: linear-gradient(145deg, #1a001a, #350045);
+    border: 2px solid #00c8ff;
+    transform: rotateY(180deg);
+}
+
+.backContainer h3 {
+    color: #00eaff;
+    margin-bottom: 0.4em;
+    text-shadow: 0 0 8px #00aaff;
+}
+
+.comboInput {
+    font-family: monospace;
+    color: #ffb3ff;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2px 6px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+.flipHint {
+    text-align: center;
+    font-size: 0.9em;
+    color: #ffb3ff;
+    opacity: 0.7;
+}
+
+.defaultCard {
+    border-color: yellow !important; 
+    box-shadow: 0 0 25px rgba(255, 255, 0, 0.6) !important;
+}

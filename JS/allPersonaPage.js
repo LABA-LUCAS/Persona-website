@@ -86,8 +86,8 @@ document.addEventListener("DOMContentLoaded", () => {
             card.appendChild(info);
 
             card.addEventListener('click', () => {
-                const goToPersona = encodeURIComponent(p.name || '');
-                window.location.href = `personaSpecific.html?name=${goToPersona}`;
+                const personaId = encodeURIComponent(p.id);
+                window.location.href = `personaSpecific.html?id=${personaId}`;
             });
 
             personaListEl.appendChild(card);

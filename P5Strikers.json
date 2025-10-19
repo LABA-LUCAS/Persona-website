@@ -3,7 +3,7 @@
         "name": "Arsene",
         "level": 1,
         "arcana": "Fool",
-        "image": "MEDIA/personas/sharedPersona/P5S_Arsene.png",
+        "image": "./MEDIA/personas/sharedPersona/P5S_Arsene.png",
         "elementResistances": {
             "weak": {
                 "element": ["ice", "bless"]
