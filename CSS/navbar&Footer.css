@@ -5,26 +5,31 @@
   align-items: center;
   padding: 1rem;
 }
+
 .navbar-brand {
   color: #e60012;
   font-weight: bold;
   font-size: 1.3rem;
 }
+
 .navbar-links {
   list-style: none;
   display: flex;
   gap: 1rem;
 }
+
 .navbar-links a {
   text-decoration: none;
   color: white;
   padding: 0.5rem 1rem;
   transition: background 0.3s;
 }
+
 .navbar-links a:hover {
   background-color: #e60012;
   border-radius: 5px;
 }
+
 .menu-toggle {
   display: none;
   font-size: 1.5rem;
@@ -32,6 +37,7 @@
   border: none;
   color: white;
 }
+
 
 @media (max-width: 768px) {
   .navbar-links {
