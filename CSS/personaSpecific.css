@@ -4,15 +4,19 @@ body {
     color: white;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
+    flex-direction: column;
+    overflow-x: hidden;
 }
 
 main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     perspective: 1200px;
+    padding: 2rem 0;
 }
 
 .card {
@@ -84,18 +88,18 @@ main {
 }
 
 .frontMiddleCardContainer1 {
-    flex-grow: 1; 
-    display: flex; 
+    flex-grow: 1;
+    display: flex;
     justify-content: center;
     align-items: center;
     max-height: 40%;
-    margin: 0.5em 0; 
+    margin: 0.5em 0;
 }
 
 .personaImage {
     max-width: 100%;
     max-height: 100%;
-    object-fit: contain; 
+    object-fit: contain;
     filter: drop-shadow(0 0 10px rgba(255, 0, 150, 0.7));
 }
 
@@ -153,6 +157,6 @@ li {
 }
 
 .defaultCard {
-    border-color: yellow !important; 
+    border-color: yellow !important;
     box-shadow: 0 0 25px rgba(255, 255, 0, 0.6) !important;
 }
