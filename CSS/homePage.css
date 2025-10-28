@@ -23,11 +23,13 @@ body {
   gap: 1rem;
   margin: 2rem 0;
 }
+
 .gameButton {
   flex: 1;
   display: flex;
   justify-content: center;
 }
+
 .gameButton button {
   width: 100%;
   height: 200px;
@@ -39,6 +41,7 @@ body {
   cursor: pointer;
   transition: transform 0.2s, background 0.3s;
 }
+
 .gameButton button:hover {
   background-color: #e60012;
   transform: scale(1.05);
@@ -58,10 +61,12 @@ body {
   gap: 1rem;
   margin: 1rem;
 }
+
 .sitePageButtonsPart1 div,
 .sitePageButtonsPart2 div {
   flex: 1;
 }
+
 .sitePageButtonsPart1 button,
 .sitePageButtonsPart2 button {
   width: 100%;
@@ -74,6 +79,7 @@ body {
   cursor: pointer;
   transition: background 0.3s, transform 0.2s;
 }
+
 .sitePageButtonsPart1 button:hover,
 .sitePageButtonsPart2 button:hover {
   background-color: #e60012;

@@ -1,3 +1,11 @@
+/* 
+Ik heb hier al een tijdje niet meer naar gekeken.
+Moet de tekst en styling misschien aanpassen,
+omdat met de toevoeging van de dark mode de kleuren en achtergronden mogelijk niet meer kloppen.
+De tekst wordt nu doorzichtiger in de light mode.
+Moet ook nog de closed versies van de tables aanpassen want de onderste 2 sluiten niet goed aan de rest.
+*/
+
 /* General Persona 5 vibe */
 body {
   background: #111;
@@ -31,7 +39,6 @@ body {
   box-shadow: 0 0 10px rgba(255, 0, 51, 0.5);
 }
 
-/* Toggle button */
 .skill-toggle {
   background: #ff0033;
   color: white;
@@ -49,7 +56,7 @@ body {
 
 /* Table styling */
 .skill-content {
-  max-height: 1000px; /* expanded by default */
+  max-height: 1000px;
   overflow: hidden;
   transition: max-height 0.4s ease;
 }
